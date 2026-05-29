@@ -403,8 +403,3 @@ Throughout this document, the marker used in the thesis-reference column for fil
 > *Supplementary diagnostic retained in the replication archive.*
 
 These files are produced for two reasons. First, they are intermediate artefacts that downstream sections consume (for example, the support diagnostics consumed by the validity-boundary map). Second, they document analytical decisions that the thesis discusses in prose without showing a numerical table (for example, the dropout-return composition and the stockout-consistency restriction). Their availability supports independent replication of every quantity cited in the manuscript.
-
-## 9. Citation
-The thesis is the canonical citation for the empirical analysis. The repository is the replication record. A possible bibliographic entry for the replication record is:
-
-> *Amazon-BuyBox-Econometrics-Analysis: replication notebook for the master thesis on FBA fulfillment status and seller-list ranking outcomes for the Xiaomi Mi Smart Band 6 on Amazon Italy. Universita Commerciale Luigi Bocconi, master thesis replication archive, 2026.*
