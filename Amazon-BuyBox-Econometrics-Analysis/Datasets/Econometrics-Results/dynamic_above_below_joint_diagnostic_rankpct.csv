@@ -1,0 +1,2 @@
+term,estimate,se,t_stat,pvalue,ci_low,ci_high,nobs,absorbed_or_missing,model_role,condition_number,ill_conditioned_flag,n_regressors_after_absorption,exposure,interaction_term
+fba_x_dropouts_below,-54478449637038.07,3.3656135617913265e+21,-1.618678099456025e-08,0.9999999871385163,-6.732229531871295e+21,6.732229422914396e+21,4958,False,joint_above_below_directional_decomposition_below_term,7705376778669.632,True,12.0,below,fba_x_dropouts_below

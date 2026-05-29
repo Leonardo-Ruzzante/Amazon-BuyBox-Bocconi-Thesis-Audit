@@ -1,0 +1,4 @@
+issue,methodological_position,thesis_response
+observed-column persistence,Expected in repeated seller panels; not a coefficient-falsification test.,Report temporal persistence and interpret raw row counts as repeated observations rather than independent draws.
+residual serial correlation,Can invalidate iid or HC-only standard errors and produce over-rejection.,"Use seller/market two-way clustered inference, CR2-style checks, and wild-cluster bootstrap as primary inferential safeguards."
+persistent unobserved seller heterogeneity,Can bias an observational FBA coefficient if correlated with FBA and ranking outcomes.,Treat static estimates as conditional associations; use the dynamic seller-FE turnover design as a stronger but still observational mechanism test.

@@ -1,0 +1,3 @@
+fba_from_shipper,rows,positive_shipping_rows,positive_shipping_share,mean_shipping_price,median_shipping_price,max_shipping_price
+0,4111,1664,0.40476769642422766,3.610189734857699,0.0,21.09
+1,996,0,0.0,0.0,0.0,0.0

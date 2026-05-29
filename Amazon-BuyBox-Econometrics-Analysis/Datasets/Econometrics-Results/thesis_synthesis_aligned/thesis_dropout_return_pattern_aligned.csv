@@ -1,0 +1,5 @@
+return_category,dropout_observations,share,claim_implication
+persistent_absence,29,0.4833333333333333,Stockout-consistency is a restriction and plausibility screen; persistent absences mean it is not proof of temporary inventory stockouts.
+reappeared_later,24,0.4,Stockout-consistency is a restriction and plausibility screen; persistent absences mean it is not proof of temporary inventory stockouts.
+reappeared_within_two_snapshots,6,0.1,Stockout-consistency is a restriction and plausibility screen; persistent absences mean it is not proof of temporary inventory stockouts.
+right_censored,1,0.0166666666666666,Stockout-consistency is a restriction and plausibility screen; persistent absences mean it is not proof of temporary inventory stockouts.

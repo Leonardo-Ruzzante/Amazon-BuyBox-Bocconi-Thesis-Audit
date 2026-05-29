@@ -1,0 +1,2 @@
+outcome,observed_beta,permutation_mean,permutation_sd,permutation_p_value_two_sided,permutation_monte_carlo_se,valid_permutations,requested_permutations,permutation_cell,interpretation
+entered_top_10,0.012173656953167331,0.004330054790489842,0.0036592588507822015,0.0102,0.0014209827585160914,4999,4999,transition_id x lag_rank_tier,Randomizes FBA status locally within transition-by-starting-rank-tier cells for the secondary top-10 prominence coefficient.

@@ -1,0 +1,61 @@
+section,check_name,passed,detail
+1,input_file_exists,True,/content/drive/MyDrive/Amazon-BuyBox-Econometrics-Analysis/Datasets/Sport e tempo libero - Smartwatch - Xiaomi Mi Smart Band 6.csv
+1,input_filename_recognized,True,Sport e tempo libero - Smartwatch - Xiaomi Mi Smart Band 6.csv
+1,input_file_nonempty,True,2967342 bytes
+2,raw_loaded_nonempty,True,"(9424, 32)"
+2,raw_column_count_expected,True,32 columns
+2,raw_required_columns_present,True,[]
+2,raw_column_names_unique,True,[]
+3,glossary_covers_all_raw_columns,True,[]
+3,glossary_has_no_extra_columns,True,[]
+3,glossary_column_entries_unique,True,[]
+3,glossary_status_labels_valid,True,[]
+4,timestamps parse without invalid rows,True,invalid rows = 0
+4,stored total price matches reconstructed total,True,tolerance = 0.01 euro
+4,stored vend_amazon matches seller name,True,mismatches = 0
+4,stored fba matches shipper name,True,mismatches = 0
+4,exactly one malformed row is present,True,malformed rows = 1
+4,malformed row is not silently classified as third party,True,malformed seller rows must remain unclassified
+5,raw CSV has no exact full-row duplicates,True,duplicate rows = 0
+5,raw CSV spans 62 timestamps,True,timestamps = 62
+5,exactly one malformed row is present,True,malformed rows = 1
+5,malformed row is driven by missing core identity fields,True,"expected missing fields: condizione, venduto_da, spedito_da"
+6,all raw markets have contiguous visibility_order,True,non-contiguous markets = 0
+6,all raw markets have exactly one stored buy_box row,True,markets failing = 0
+6,stored winner is always at visibility_order zero,True,markets failing = 0
+7,stored vend_amazon count matches seller-name reconstruction,True,"stored = 99, reconstructed = 99"
+7,stored fba count matches shipper-name reconstruction,True,"stored = 4707, reconstructed = 4707"
+7,qta_min is always equal to 1,True,rows failing = 0
+7,prezzo_prod_venduto(€) equals prezzo everywhere,True,rows failing = 0
+7,stored free shipping never has positive stored shipping price,True,rows failing = 0
+7,stored paid shipping with zero stored price rows are flagged for later raw-text audit,True,rows flagged = 98
+8,five delivery-failure markets are detected,True,failed markets = 5
+8,failed delivery markets still contain raw delivery text in every row,True,all failed markets have full raw-text coverage
+8,original-style delivery parser fails on the failed markets,True,no signal recovered by original-style parser
+8,robust delivery parser recovers signal in all failed markets,True,robust parser recovers every row in failed markets
+8,robust delivery parser reproduces stored non-failed markets within one day everywhere,True,all audited fields have zero >1-day mismatches
+9,stored free shipping never has a positive stored price,True,no free-label rows carry positive stored shipping price
+9,raw explicit paid shipping never contradicts the stored paid/free mode,True,mode agrees whenever raw text is explicit
+9,raw explicit free shipping never contradicts the stored paid/free mode,True,mode agrees whenever raw text is explicit
+9,shipping parser leaves no residual unknown-text cases in the raw file,True,unknown_text rows = 0
+9,paid-zero anomalies are fully classified into explicit-price versus contact-courier cases,True,"explicit = 45, contact_courier = 53, unknown_other = 0, total = 98"
+9,explicit paid shipping price mismatches are exactly the explicit paid zero-price anomalies,True,"all explicit mismatches = 45, paid-zero explicit anomalies = 45"
+10,the Nuovo raw-offer sample spans 62 markets,True,markets = 62
+10,every Nuovo market contains at least one repeated seller,True,markets with repeated seller = 62
+10,seller_best removes all repeated sellers within market,True,seller_best has one row per seller per timestamp
+11,dif_prezzo becomes invalid after the Nuovo restriction,True,stored dif_prezzo is sample-dependent
+11,dif_prezzo_tot becomes invalid after the Nuovo restriction,True,stored dif_prezzo_tot is sample-dependent
+11,rapp_piu_basso becomes invalid after the Nuovo restriction,True,stored rapp_piu_basso is sample-dependent
+11,dif_prezzo_sped remains valid across all audited candidate samples,True,shipping-price minimum is unchanged across these candidate samples
+11,delta_num_val remains valid across all audited candidate samples,True,max review count is unchanged across these candidate samples
+11,delta_val_pos(%) remains valid across all audited candidate samples,True,max positive rating is unchanged across these candidate samples
+11,raw reference already shows non-exactness for some stored convenience variables,True,not all stored convenience variables are exact even before sample redesign
+12,stored auxiliary winner flag has zero support in every candidate sample,True,no third-party row carries the stored auxiliary winner flag after final restriction
+12,best_third_party is supported in every market,True,one rank-1 third-party seller exists in each market after reranking
+14,at least 98% of Nuovo rows belong to repeated core offer states,True,share = 0.986174
+14,exactly two third-party sellers show both FBA and non-FBA rows in raw Nuovo,True,count = 2
+14,the two mixed-status sellers are mixed within market rather than switching across markets,True,SKY LINE E-COMM and TPC Mobile mix statuses within market; no across-market switching survives in seller_best
+16,review variables retain positive support in at least 98% of preferred third-party rows,True,share = 0.981986
+16,contact-courier rows remain below 1% of the preferred third-party sample,True,share = 0.009790
+16,all third-party sellers observed in all 62 markets change rank at least once,True,count_with_change = 52 out of 52
+16,the panel contains one same-day market pair for each observed calendar day,True,"same_day_pairs = 31, observed_days = 31"

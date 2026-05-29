@@ -1,0 +1,93 @@
+notebook_version: final-empirical-documentation
+product_label: Xiaomi Mi Smart Band 6
+source_file: /content/drive/MyDrive/Amazon-BuyBox-Econometrics-Analysis/Datasets/Sport
+  e tempo libero - Smartwatch - Xiaomi Mi Smart Band 6.csv
+source_sha256: 88c85f33e3e640d6261d2ac1bb0b095ebf1c65ac8fc4edab9d850cd3c8abe5b5
+final_rows: 5107
+markets: 62
+sellers: 119
+outcome: rank_pct
+headline_specification: spec_4_fba_reputation_price_shipping_delivery
+headline_inference: two_way_seller_market
+machine_learning_residualization_included: false
+equal_market_size_sample_modification_included: false
+binary_outcomes_primary_inference_included: false
+binary_outcomes_auxiliary_salience_included: true
+binary_top10_complementary_estimand_included: true
+binary_top10_prominence_threshold: 10
+two_way_wild_bootstrap_included: true
+cr2_cluster_correction_included: true
+observation_level_influence_included: true
+extended_logistics_controls_included: true
+fast_delivery_premium_eur: 4.99
+fast_delivery_cost_imputation_included: true
+fast_delivery_cost_source: External Amazon.it Premium fast-delivery benchmark supplied
+  for the thesis analysis; baseline EUR 4.99, not directly observed in the scraped
+  CSV
+fast_delivery_premium_label: premium_delivery_baseline_eur_4_99
+fast_delivery_sensitivity_grid_eur:
+  pickup_point_lower_sensitivity_eur_3_99: 3.99
+  premium_delivery_baseline_eur_4_99: 4.99
+  same_day_upper_sensitivity_eur_8_99: 8.99
+fast_delivery_premium_sensitivity_estimated: true
+oster_multi_rmax_grid_included: true
+functional_form_fragility_summary_included: true
+fast_delivery_cost_collinearity_rule: fast_delivery_cost_imputed is the FBA-only monetary
+  proxy FAST_DELIVERY_PREMIUM_EUR x fast_delivery_available x fba_from_shipper; it
+  is not a directly observed checkout price
+interaction_multiple_testing_correction_included: true
+price_measure_parallel_checks_included: true
+categorical_star_rating_sensitivity_included: true
+positive_review_exclusion_sensitivity_included: true
+overlap_balance_tests_included: true
+dynamic_seller_list_turnover_design_included: true
+reference_dynamic_vacancy_tables_retained_for_decomposition: true
+primary_cr2_wcb_files_target_total_turnover_premium: true
+dynamic_fba_turnover_premium_included: true
+dynamic_within_seller_variation_diagnostics_included: true
+dynamic_rank_tier_sensitivity_included: true
+dynamic_reference_above_exposure_fixed_effects: seller_id and transition_id
+dynamic_fba_premium_fixed_effects: seller_id and transition_id; D2 adds lag-rank quartile
+  dummies; D3 adds lag_rank_pct squared; D4 absorbs transition_id x lag_rank_tier
+dynamic_starting_rank_adjustment_hierarchy:
+- D1 baseline
+- D2 lag-rank quartile dummies
+- D3 lag-rank quadratic
+- D4 transition_id x lag_rank_tier stress test
+dynamic_mde_power_audit_included: true
+dropouts_below_negative_special_rule_included: false
+below_turnover_treated_as_decomposition_not_placebo: true
+overlap_validity_gate_included: true
+dynamic_future_pretrend_permutation_placebos_included: true
+dynamic_stockout_consistency_event_table_included: true
+above_below_churn_correlation_included: true
+dynamic_churn_decomposition_included: true
+clean_turnover_restrictions_included: true
+distance_banded_turnover_included: true
+partial_identification_bound_included: true
+rank_tier_stress_reported_as_severe_stress_test: true
+starting_rank_quartile_adjustment_included: true
+starting_rank_quadratic_adjustment_included: true
+bootstrap_replications_audited_default: 4999
+dynamic_permutation_replications_audited_default: 4999
+binary_top10_permutation_replications_audited_default: 4999
+bootstrap_replication_note: The audited thesis analysis uses 4,999 bootstrap/permutation
+  replications by default. The optional NOTEBOOK_FAST_VALIDATION=1 mode uses 49 replications
+  only as a smoke test and must not replace the complete-run inference.
+conservative_dynamic_inference_rule: largest sign-consistent p-value across CR2/bootstrap
+  candidates
+primary_dynamic_claim: FBA-by-total-turnover seller-list rank-movement association,
+  validated with parsimonious starting-rank adjustments and qualified by mechanism
+  diagnostics
+audit_consistency_checks_included: true
+chen_tsai_required_mapping_schema_included: true
+evidence_to_claim_summary_included: true
+eight_table_spine_manifest_included: true
+ratio_preserving_overlap_included: false
+exports_written: true
+output_dir: /content/drive/MyDrive/Amazon-BuyBox-Econometrics-Analysis/Datasets/Econometrics-Results
+documentation_alignment_revision: final source comments, markdown, limitations, and
+  audit wording aligned to the FBA-only logistics-value-adjusted specification
+output_schemas_include_starting_rank_adjustment: true
+documentation_alignment_zip_sha256_prefix: null
+documentation_alignment_file_count: null

@@ -1,0 +1,2 @@
+model,diagnostic,status,n_pairs,clusters,coefficient_on_lagged_difference,se_clustered,test_null,t_statistic_for_null,pvalue_clustered,inference,interpretation
+static_headline_spec_4,wooldridge_style_fd_residual_test,estimated,4815,110,-0.34689696713580376,0.07556257763511307,coef = -0.5,2.0261753589656664,0.045188911262999745,seller_clustered,Rejection indicates residual serial correlation; the appropriate response is cluster/block/wild-cluster inference plus a cautious observational interpretation.

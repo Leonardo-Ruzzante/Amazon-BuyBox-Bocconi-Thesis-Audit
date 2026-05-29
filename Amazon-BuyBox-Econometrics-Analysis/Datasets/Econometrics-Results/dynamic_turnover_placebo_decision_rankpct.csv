@@ -1,0 +1,2 @@
+future_turnover_pvalue,pretrend_turnover_pvalue,permutation_p_value_two_sided,future_placebo_pass_at_10pct,pretrend_placebo_pass_at_10pct,permutation_support_at_10pct,decision_rule
+0.8854075805042818,0.4571530681813636,0.0396,True,True,True,"These placebo checks harden, but do not prove, the turnover-period rank-movement interpretation. Failure requires the dynamic claim to be downgraded."

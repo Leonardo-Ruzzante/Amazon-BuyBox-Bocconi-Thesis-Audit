@@ -1,0 +1,5 @@
+step,rows,rows_dropped_step,note
+raw_rows,9424,0,All rows in the raw CSV
+after_new_condition_filter,5786,3638,Restrict to new-condition offers
+after_third_party_filter,5687,99,Exclude Amazon-as-seller and Amazon buy-box rows
+final_econometric_panel,5107,580,After malformed-identity exclusion and within-market re-ranking

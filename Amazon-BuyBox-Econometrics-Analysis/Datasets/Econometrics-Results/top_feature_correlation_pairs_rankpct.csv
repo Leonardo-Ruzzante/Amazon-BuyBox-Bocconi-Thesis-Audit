@@ -1,0 +1,21 @@
+feature_1,feature_2,correlation,abs_correlation,correlation_note
+valutazioni_positive,stelle,0.9552432790620845,0.9552432790620845,Market-demeaned correlations; market-level common components are removed.
+fba_from_shipper,prezzo,-0.3578988487621175,0.3578988487621175,Market-demeaned correlations; market-level common components are removed.
+log1p_num_valutazioni,valutazioni_positive,0.3538289024093707,0.3538289024093707,Market-demeaned correlations; market-level common components are removed.
+log1p_num_valutazioni,stelle,0.316785401431014,0.316785401431014,Market-demeaned correlations; market-level common components are removed.
+fba_from_shipper,valutazioni_positive,0.29166798306358965,0.29166798306358965,Market-demeaned correlations; market-level common components are removed.
+valutazioni_positive,g_cons_min_robust,-0.2900601686710078,0.2900601686710078,Market-demeaned correlations; market-level common components are removed.
+fba_from_shipper,prezzo_spedizione_repaired,-0.2870796416642819,0.2870796416642819,Market-demeaned correlations; market-level common components are removed.
+stelle,prezzo_spedizione_repaired,-0.2850991226707543,0.2850991226707543,Market-demeaned correlations; market-level common components are removed.
+valutazioni_positive,prezzo_spedizione_repaired,-0.27906559732337777,0.27906559732337777,Market-demeaned correlations; market-level common components are removed.
+fba_from_shipper,stelle,0.25255720480264887,0.25255720480264887,Market-demeaned correlations; market-level common components are removed.
+stelle,g_cons_min_robust,-0.2391198600343986,0.2391198600343986,Market-demeaned correlations; market-level common components are removed.
+fba_from_shipper,log1p_num_valutazioni,-0.23253925675854217,0.23253925675854217,Market-demeaned correlations; market-level common components are removed.
+log1p_num_valutazioni,g_cons_min_robust,-0.22357227370451918,0.22357227370451918,Market-demeaned correlations; market-level common components are removed.
+prezzo_spedizione_repaired,g_cons_min_robust,0.18531295321462035,0.18531295321462035,Market-demeaned correlations; market-level common components are removed.
+valutazioni_positive,prezzo,-0.107564516821018,0.107564516821018,Market-demeaned correlations; market-level common components are removed.
+log1p_num_valutazioni,prezzo_spedizione_repaired,-0.10503830340554556,0.10503830340554556,Market-demeaned correlations; market-level common components are removed.
+prezzo,prezzo_spedizione_repaired,-0.07042807884518433,0.07042807884518433,Market-demeaned correlations; market-level common components are removed.
+contact_courier_flag,g_cons_min_robust,-0.06994945007967687,0.06994945007967687,Market-demeaned correlations; market-level common components are removed.
+prezzo,g_cons_min_robust,0.06483699337313642,0.06483699337313642,Market-demeaned correlations; market-level common components are removed.
+prezzo_spedizione_repaired,contact_courier_flag,-0.056587094699078466,0.056587094699078466,Market-demeaned correlations; market-level common components are removed.

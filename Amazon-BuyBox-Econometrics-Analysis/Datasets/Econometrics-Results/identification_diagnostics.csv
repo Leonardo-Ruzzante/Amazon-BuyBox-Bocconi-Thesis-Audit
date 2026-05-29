@@ -1,0 +1,12 @@
+metric,value
+final_rows,5107
+markets,62
+third_party_sellers,119
+fba_rows,996
+non_fba_rows,4111
+sellers_in_all_markets,52
+within_seller_fba_switches_final,0
+within_seller_fba_switches_raw_new,2
+review_problem_rows,92
+contact_courier_rows,50
+delivery_failure_markets,5

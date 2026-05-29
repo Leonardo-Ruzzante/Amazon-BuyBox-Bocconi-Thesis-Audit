@@ -1,0 +1,3 @@
+definition,event_rule,event_count,share_of_dropout_events,interpretation
+broad_later_return_nonprice,seller reappears later in the sample and lagged price is not extreme,30,0.5,Main stockout-consistency hardening definition; broad enough to retain support but still excludes persistent non-return and price-outlier exits.
+strict_within_two_snapshots_nonprice,seller reappears within two snapshots and lagged price is not extreme,11,0.18333333333333332,Stricter near-term return definition; useful as a severity check but likely thinly powered.

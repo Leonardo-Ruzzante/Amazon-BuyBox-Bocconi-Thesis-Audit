@@ -1,0 +1,2 @@
+method,coefficient,t_statistic,dof_reference,partial_r2_fba_with_rank_given_controls,robustness_value_to_reduce_estimate_to_zero,interpretation
+Cinelli-Hazlett-style OLS sensitivity diagnostic,-0.05103815170628886,-3.196230990187598,61,0.14344961746452217,0.3339777961097158,Approximate diagnostic only; it does not convert the associational design into a causal design.

@@ -1,0 +1,7 @@
+metric,nuovo_offer_raw,nuovo_offer_relaxed_dedup,nuovo_offer_strict_dedup,nuovo_seller_best,raw_non_malformed,candidate_sample_status
+delta_num_val,1.0,1.0,1.0,1.0,0.9993632601082458,stable across audited candidate samples
+delta_val_pos(%),1.0,1.0,1.0,1.0,0.9993632601082458,stable across audited candidate samples
+dif_prezzo,0.0,0.0,0.0,0.0,1.0,invalid after sample redefinition
+dif_prezzo_sped,1.0,1.0,1.0,1.0,1.0,stable across audited candidate samples
+dif_prezzo_tot,0.0,0.0,0.0,0.0,0.9891754218401783,invalid after sample redefinition
+rapp_piu_basso,0.0,0.0,0.0,0.0,0.9964979305953517,invalid after sample redefinition

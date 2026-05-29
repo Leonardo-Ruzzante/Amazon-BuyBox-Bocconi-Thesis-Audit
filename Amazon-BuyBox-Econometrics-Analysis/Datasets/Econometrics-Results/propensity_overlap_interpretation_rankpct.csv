@@ -1,0 +1,7 @@
+object,interpretation
+ratio_preservation,The overlap diagnostics do not force the original FBA/non-FBA ratio. Common-support restrictions intentionally change the comparison population.
+split_price_overlap,"The split-price propensity model uses product price and shipping price separately, mirroring the headline OLS specification."
+total_price_overlap,"The total-price propensity model replaces product and shipping price with reconstructed total price, checking whether the overlap conclusion depends on decomposed price representation."
+categorical_star_overlap,"The categorical-star variants replace the linear stelle term with star-rating indicators, using 4.5 stars as the reference category."
+positive_review_exclusion,"Each price/star specification is also estimated after dropping valutazioni_positive, because positive-review percentage is highly correlated with stelle and may make the reputation controls unnecessarily collinear."
+overlap_balance_tests,"For every overlap design, FBA and non-FBA covariate balance is tested again inside the full sample and overlap-restricted samples. SMDs are the preferred balance metric; p-values are descriptive."

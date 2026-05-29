@@ -1,0 +1,4 @@
+model,estimate,se,pvalue,relative_abs_magnitude_vs_headline,reset_power2_statistic,reset_power2_pvalue,claim_implication
+headline_ols_linear_projection,-0.0510381517062888,0.0159682300381216,0.0022065363914001,1.0,5994.163008428018,0.0,"Magnitude is functional-form sensitive; headline OLS is retained as a linear projection, not as a universal conditional-mean estimate."
+quadratic_controls,-0.0352286403913793,0.0122324935868499,0.0054802936627467,0.6902413040760351,5994.163008428018,0.0,"Magnitude is functional-form sensitive; headline OLS is retained as a linear projection, not as a universal conditional-mean estimate."
+fractional_logit_ape,-0.0140650798202695,0.0116436337227347,0.2317239127640074,0.27557972516736795,5994.163008428018,0.0,"Magnitude is functional-form sensitive; headline OLS is retained as a linear projection, not as a universal conditional-mean estimate."

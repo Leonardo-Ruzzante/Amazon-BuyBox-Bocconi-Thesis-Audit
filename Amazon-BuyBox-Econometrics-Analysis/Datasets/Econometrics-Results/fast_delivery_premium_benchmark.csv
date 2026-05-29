@@ -1,0 +1,4 @@
+scenario,premium_eur,role,notebook_use,source_role
+pickup_point_lower_sensitivity_eur_3_99,3.99,lower sensitivity,one-way sensitivity translation only; not the baseline fast-delivery premium,"External Amazon.it Premium fast-delivery benchmark supplied for the thesis analysis; baseline EUR 4.99, not directly observed in the scraped CSV"
+premium_delivery_baseline_eur_4_99,4.99,baseline,main imputed Premium fast-delivery benchmark for fast_delivery_cost_imputed,"External Amazon.it Premium fast-delivery benchmark supplied for the thesis analysis; baseline EUR 4.99, not directly observed in the scraped CSV"
+same_day_upper_sensitivity_eur_8_99,8.99,upper sensitivity,one-way sensitivity translation only; appropriate only if faster delivery is interpreted as same-day delivery,"External Amazon.it Premium fast-delivery benchmark supplied for the thesis analysis; baseline EUR 4.99, not directly observed in the scraped CSV"

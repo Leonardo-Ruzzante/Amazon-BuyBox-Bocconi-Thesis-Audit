@@ -1,0 +1,8 @@
+top_k_third_party_offers_per_market,rows_retained_if_capped_at_k,share_rows_retained_if_capped_at_k,markets_with_at_least_k_offers,share_markets_with_at_least_k_offers
+3,186,0.03642059917759937,62,1.0
+5,310,0.06070099862933229,62,1.0
+10,620,0.12140199725866457,62,1.0
+20,1240,0.24280399451732915,62,1.0
+30,1860,0.3642059917759937,62,1.0
+40,2480,0.4856079890346583,62,1.0
+50,3100,0.6070099862933229,62,1.0

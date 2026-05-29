@@ -1,0 +1,5 @@
+,rank_pos,rank_pos,rank_pos,rank_pos,rank_pos,rank_pct,rank_pct,rank_pct,rank_pct,rank_pct
+,mean,median,min,max,count,mean,median,min,max,count
+fba_from_shipper,,,,,,,,,,
+0,47.989783507662366,49.0,1,93,4111,0.5740287118887035,0.5862068965517241,0.0,1.0,4111
+1,16.84136546184739,14.0,1,67,996,0.1944457484192168,0.16070668369518942,0.0,0.7763157894736842,996

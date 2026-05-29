@@ -1,0 +1,2 @@
+nobs,r_squared,significant_observed_predictors,overwhelming_predictability_flag,interpretation
+5018,0.02648587318263329,2,False,Flags whether disappearance is overwhelmingly predictable from observed seller quality or lagged offer conditions.

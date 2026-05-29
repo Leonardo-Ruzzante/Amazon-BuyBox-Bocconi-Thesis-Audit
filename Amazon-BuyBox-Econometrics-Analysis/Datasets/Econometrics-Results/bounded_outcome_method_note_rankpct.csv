@@ -1,0 +1,2 @@
+method_considered,decision_in_this_notebook,reason
+bounded-outcome diagnostics,"report fitted-value diagnostics and fractional-response diagnostics, while keeping the linear rank-percent projection as headline",The headline coefficient is directly interpretable in rank-percent units. Fractional response estimates a different nonlinear conditional-mean object and is therefore treated as a diagnostic rather than as confirmatory evidence.

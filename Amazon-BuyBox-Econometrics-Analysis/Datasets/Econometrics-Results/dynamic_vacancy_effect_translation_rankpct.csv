@@ -1,0 +1,3 @@
+reference_market_size,implied_rank_position_shift_per_dropout,note
+82.37096774193549,0.2934541077286952,Mean third-party market size equivalent. This is an approximate translation of rank_pct units.
+80.0,0.28490351232014843,Median third-party market size equivalent. This is an approximate translation of rank_pct units.

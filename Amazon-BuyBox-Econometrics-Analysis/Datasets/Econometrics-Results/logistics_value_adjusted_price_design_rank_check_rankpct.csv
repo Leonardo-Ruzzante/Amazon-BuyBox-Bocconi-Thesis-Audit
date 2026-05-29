@@ -1,0 +1,4 @@
+logistics_value_variant,n_after_dropna,n_design_columns,rank,condition_number,full_rank
+logistics_value_adjusted_fba_only_4_99_baseline,5107,7,7,1040.3913832809226,True
+logistics_value_adjusted_fba_only_3_99_lower,5107,7,7,1040.2313996578205,True
+logistics_value_adjusted_fba_only_8_99_upper,5107,7,7,1041.0397189398268,True

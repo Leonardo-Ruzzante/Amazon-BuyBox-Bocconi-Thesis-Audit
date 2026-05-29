@@ -1,0 +1,9 @@
+criterion,result,role
+static residual FBA premium positive and p < 0.05,True,core descriptive
+dynamic FBA turnover premium positive and p < 0.05,True,core dynamic
+conservative premium inference p < 0.10,True,core inference check
+dynamic premium model identified with finite SE,True,core
+directional local-vacancy term not required for final claim,True,interpretation
+rank-tier FE stress test reported,True,body-level caution
+pre-disappearance diagnostics reported,True,contextual
+support/MDE audit reported,True,contextual

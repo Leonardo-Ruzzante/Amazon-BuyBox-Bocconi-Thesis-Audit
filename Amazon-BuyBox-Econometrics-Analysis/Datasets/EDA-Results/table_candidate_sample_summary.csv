@@ -1,0 +1,5 @@
+sample,rows,markets,mean_market_size,min_market_size,max_market_size,mean_unique_sellers_per_market,seller_duplicate_rows,strict_duplicate_rows,relaxed_duplicate_rows
+nuovo_offer_raw,5786,62,93.3225806451613,78,111,83.37096774193549,617,24,56
+nuovo_offer_strict_dedup,5762,62,92.93548387096774,77,111,83.37096774193549,593,0,32
+nuovo_offer_relaxed_dedup,5730,62,92.41935483870968,77,111,83.37096774193549,561,0,0
+nuovo_seller_best,5169,62,83.37096774193549,73,94,83.37096774193549,0,0,0

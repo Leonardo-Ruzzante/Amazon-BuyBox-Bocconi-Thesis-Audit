@@ -1,0 +1,2 @@
+sample,outcome,specification,estimator,inference,term_name,coef_fba,se_fba,test_statistic,pvalue_fba,ci_low,ci_high,stars,dof_reference,nobs,r_squared,seller_clusters,market_clusters
+full_sample,rank_pct,spec_4_market_equal_weighted,market_fe_wls_equal_market_weight,two_way_seller_market,fba_from_shipper,-0.04999841476428036,0.01572265603250655,-3.180023442661899,0.0023149380470397496,-0.08143780858564342,-0.018559020942917302,***,61,5107,0.9599825243130582,119,62

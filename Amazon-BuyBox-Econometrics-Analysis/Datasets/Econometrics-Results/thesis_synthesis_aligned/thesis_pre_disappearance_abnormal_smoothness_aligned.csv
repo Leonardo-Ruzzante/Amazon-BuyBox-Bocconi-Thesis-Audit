@@ -1,0 +1,2 @@
+variable,mean_change_dropout_sellers,mean_change_continuing_sellers,difference,standardized_difference,pvalue_welch,economic_nontrivial_threshold,economically_nontrivial,materially_abnormal,n_dropout_observations,n_continuing_observations,smoothness_flag
+g_cons_min_robust,0.64,-0.0034878949528108,0.6434878949528109,0.5367522561987894,0.0081788319000251,1.0,False,True,25,4874,materially_abnormal

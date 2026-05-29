@@ -1,0 +1,6 @@
+evidence_block,diagnostic_status,pvalue,serial_dependence_flag_5pct,implication_for_estimation
+static headline residual AR(1),estimated,2.3342299484334053e-113,True,"Do not use iid/HC-only inference; rely on clustered, CR2, and wild-cluster inference."
+static Wooldridge-style FD residual test,estimated,0.045188911262999745,True,"Do not use iid/HC-only inference; rely on clustered, CR2, and wild-cluster inference."
+dynamic preferred residual AR(1),estimated,0.23096347349419347,False,"No strong diagnostic rejection at 5%, but repeated observations still justify clustered inference by design."
+dynamic Wooldridge-style FD residual test,estimated,0.00151524160857555,True,"Do not use iid/HC-only inference; rely on clustered, CR2, and wild-cluster inference."
+overall interpretation rule,interpretive rule,,,Temporal persistence is not a falsification test for the coefficient. It mainly affects inference and reinforces the non-causal interpretation when persistence reflects unobserved seller quality.

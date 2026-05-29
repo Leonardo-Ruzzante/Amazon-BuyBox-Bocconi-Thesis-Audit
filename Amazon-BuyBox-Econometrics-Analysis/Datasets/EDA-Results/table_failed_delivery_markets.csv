@@ -1,0 +1,6 @@
+timestamp,rows,raw_delivery_text_rows,stored_delivery_signal_rows,original_parser_signal_rows,robust_parser_signal_rows
+2022-03-04T18:01:41,175,175,0,0,175
+2022-03-05T12:01:52,179,179,0,0,179
+2022-03-06T18:01:33,177,177,0,0,177
+2022-03-07T18:01:43,176,176,0,0,176
+2022-03-09T18:02:01,183,183,0,0,183

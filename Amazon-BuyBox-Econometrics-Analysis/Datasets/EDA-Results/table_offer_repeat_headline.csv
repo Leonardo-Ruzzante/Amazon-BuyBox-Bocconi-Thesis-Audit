@@ -1,0 +1,5 @@
+metric,value
+unique_core_offer_states_in_nuovo_offer_raw,427.0
+core_offer_states_repeated_across_markets,348.0
+rows_belonging_to_repeated_core_offer_states,5706.0
+share_of_rows_in_repeated_core_offer_states,0.9861735222951953

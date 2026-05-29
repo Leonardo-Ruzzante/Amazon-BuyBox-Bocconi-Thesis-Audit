@@ -1,0 +1,15 @@
+timestamp,venduto_da,spedito_da,spedizione_consegna,g_cons_min,g_cons_max,g_cons_min_robust,g_cons_max_robust,tipo_spedizione,prezzo_spedizione(€),parsed_shipping_mode,parsed_shipping_price
+2022-03-04T18:01:41,Amazon,Amazon,"Consegna GRATUITA martedì, 8 marzo. Ordina entro 5 ore 58 min. Maggiori informazioni",0,0,4.0,4.0,Gratuita,0.0,free_explicit,0.0
+2022-03-04T18:01:41,Amazon Warehouse,Amazon,"Consegna GRATUITA giovedì, 10 marzo sul tuo primo ordine idoneo. Maggiori informazioni",0,0,6.0,6.0,Gratuita,0.0,free_explicit,0.0
+2022-03-04T18:01:41,Amazon,Amazon,"Consegna GRATUITA martedì, 8 marzo. Ordina entro 5 ore 58 min. Maggiori informazioni",0,0,4.0,4.0,Gratuita,0.0,free_explicit,0.0
+2022-03-04T18:01:41,ZaarioGmbH,Amazon,"Consegna GRATUITA giovedì, 10 marzo. Maggiori informazioni oppure consegna più rapida mercoledì, 9 marzo. Ordina entro 1 ora 13 min. Maggiori informazioni",0,0,6.0,6.0,Gratuita,0.0,free_explicit,0.0
+2022-03-04T18:01:41,SKY LINE E-COMM,Amazon,"Consegna GRATUITA giovedì, 10 marzo. Maggiori informazioni oppure consegna più rapida mercoledì, 9 marzo. Ordina entro 1 ora 13 min. Maggiori informazioni",0,0,6.0,6.0,Gratuita,0.0,free_explicit,0.0
+2022-03-04T18:01:41,Yulus,Yulus,Consegna GRATUITA 14 - 16 marzo. Maggiori informazioni,0,0,10.0,12.0,Gratuita,0.0,free_explicit,0.0
+2022-02-17T18:08:52,Dagimarket,Dagimarket,"Consegna a 7,32 € : 23 - 25 feb Maggiori informazioni",,,,,A Pagamento,0.0,,7.32
+2022-02-17T18:08:52,R-Shop360,R-Shop360,"Consegna a 5,08 € : 25 feb - 1 mar Maggiori informazioni",,,,,A Pagamento,0.0,,5.08
+2022-02-17T18:08:52,TEC -,TEC -,"Consegna a 5,90 € : 22 - 23 feb Maggiori informazioni Consegna più veloce: 21 - 22 feb Maggiori informazioni",,,,,A Pagamento,0.0,,5.9
+2022-02-17T18:08:52,CAREBSRL-IT,CAREBSRL-IT,"Consegna a 7,00 € : 22 - 23 feb Maggiori informazioni Consegna più veloce: martedì, 22 feb Maggiori informazioni",,,,,A Pagamento,0.0,,7.0
+2022-02-07T12:05:05,Topocentras EU,Topocentras EU,Verrai contattato dal corriere per fissare una data di consegna. Consegna più veloce: 14 - 16 feb Maggiori informazioni,,,,,A Pagamento,0.0,unknown_contact_courier,
+2022-02-07T18:09:10,Topocentras EU,Topocentras EU,Verrai contattato dal corriere per fissare una data di consegna. Consegna più veloce: 14 - 16 feb Maggiori informazioni,,,,,A Pagamento,0.0,unknown_contact_courier,
+2022-02-08T12:07:00,Topocentras EU,Topocentras EU,Verrai contattato dal corriere per fissare una data di consegna. Consegna più veloce: 15 - 17 feb Maggiori informazioni,,,,,A Pagamento,0.0,unknown_contact_courier,
+2022-02-08T12:07:00,Topocentras EU,Topocentras EU,Verrai contattato dal corriere per fissare una data di consegna. Consegna più veloce: 15 - 16 feb Maggiori informazioni,,,,,A Pagamento,0.0,unknown_contact_courier,

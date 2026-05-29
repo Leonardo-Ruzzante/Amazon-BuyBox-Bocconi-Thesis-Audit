@@ -1,0 +1,7 @@
+metric,value
+contact_courier_rows_in_preferred_sample,50.0
+share_of_preferred_sample,0.009790483649892304
+contact_courier_markets,50.0
+contact_courier_sellers,1.0
+contact_courier_rows_with_stored_zero_shipping,50.0
+contact_courier_rows_labeled_paid_shipping,50.0

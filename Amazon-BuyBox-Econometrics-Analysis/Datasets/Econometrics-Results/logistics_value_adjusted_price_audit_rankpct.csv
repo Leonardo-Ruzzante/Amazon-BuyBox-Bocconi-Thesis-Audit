@@ -1,0 +1,7 @@
+logistics_value_variant,fba_group,n_obs,n_with_fast_delivery,share_with_fast_delivery,mean_prezzo_totale_reconstructed,mean_prezzo_totale_logistics_value_adjusted,mean_fba_only_fast_delivery_value_imputed,max_fba_only_fast_delivery_value_imputed
+logistics_value_adjusted_fba_only_4_99_baseline,FBA,996,146,0.1465863453815261,45.10348393574298,45.834949799196785,0.7314658634538153,4.99
+logistics_value_adjusted_fba_only_4_99_baseline,non_FBA,4111,844,0.20530284602286547,55.945018243736314,55.945018243736314,0.0,0.0
+logistics_value_adjusted_fba_only_3_99_lower,FBA,996,146,0.1465863453815261,45.10348393574298,45.68836345381526,0.5848795180722891,3.99
+logistics_value_adjusted_fba_only_3_99_lower,non_FBA,4111,844,0.20530284602286547,55.945018243736314,55.945018243736314,0.0,0.0
+logistics_value_adjusted_fba_only_8_99_upper,FBA,996,146,0.1465863453815261,45.10348393574298,46.42129518072289,1.3178112449799197,8.99
+logistics_value_adjusted_fba_only_8_99_upper,non_FBA,4111,844,0.20530284602286547,55.945018243736314,55.945018243736314,0.0,0.0

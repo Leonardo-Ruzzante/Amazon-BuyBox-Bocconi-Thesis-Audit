@@ -1,0 +1,32 @@
+variable_block,status_in_raw_csv,preferred_version_after_audit,descriptive_use,predictive_use,causal_adjustment_use,note
+timestamp,raw source field,timestamp_dt,yes,yes,as market/time fixed effect only,Core market identifier.
+is_malformed_row,audit flag,is_malformed_row,sample-construction only,no,no,Use only to exclude the single malformed row.
+condizione,raw source field,condizione,yes,yes,sample-definition only,Use only after defining the market of interest.
+visibility_order,raw source field,visibility_order,yes,diagnostic only,no,Raw page order. For rank-based outcomes it is near-outcome information and should not be a headline predictor.
+rank_pos / rank_pct,derived within-sample ranking variables,recompute with add_ranks inside the final sample,yes as outcomes/descriptives,"target only, not predictor",no,"They depend on filtering and deduplication, so they must be recomputed inside the final sample."
+buy_box,stored flag,buy_box,descriptive only,descriptive only,no,Stored auxiliary winner flag. It is not part of the thesis outcomes and has no third-party support.
+best_third_party / top_3 / top_5 / top_10,derived outcome block,recompute inside the final sample,yes,yes as targets only,no,These are the supported ranking outcomes after reranking inside the final third-party competitive set.
+venduto_da,raw source field,venduto_da,yes,diagnostic only under seller-blocked evaluation,seller fixed effect only when the design supports it,Seller identity materially raises apparent predictive performance under non-blocked splits and should not be a standard feature.
+seller_type_from_name / third_party_from_name / amazon_retail_from_name / amazon_warehouse_from_name,reconstructed from seller name,same reconstructed fields,yes,sample-construction only,no,"Useful for segmentation and audit logic, but mostly deterministic functions of seller identity."
+spedito_da,raw source field,spedito_da,yes,yes,yes with caution,Preferred source for FBA reconstruction and useful for distinguishing mixed-within-seller offers.
+fba,stored flag,fba_from_shipper,yes after reconstruction,yes after reconstruction,no if FBA is the treatment of interest,"Stored flag matches the shipper-based reconstruction here, but the reconstructed version is preferred."
+vend_amazon,stored flag,amazon_retail_from_name,yes after reconstruction,sample-construction only,no,"Stored flag matches the name-based reconstruction here, but the reconstructed version is preferred."
+prezzo,raw source field,prezzo,yes,yes,yes,Core primitive price component.
+prezzo_spedizione(€),stored convenience,"parsed_shipping_price when explicit, else stored value flagged as uncertain",yes with caution,yes with caution,yes with caution,There are 45 explicit extraction failures and 53 contact-courier cases where no numeric amount is recoverable from raw text.
+tipo_spedizione,stored convenience,parsed_shipping_mode when explicit,yes with caution,not recommended as core regressor,no,"Mode is mostly coherent, but it is not sufficient for recovering numeric shipping cost."
+prezzo_totale(€),stored convenience,prezzo_totale_reconstructed,yes after reconstruction,yes after reconstruction,yes after reconstruction,Use the reconstructed total built from audited components.
+num_valutazioni,raw source field,num_valutazioni,yes,yes,yes with caution,Structural zeros for Amazon-type sellers should not be interpreted as quality zero.
+valutazioni_positive,raw source field,valutazioni_positive,yes,yes,yes with caution,Structural zeros for Amazon-type sellers should not be interpreted as quality zero.
+stelle,raw source field,stelle,yes,yes,yes with caution,Structural zeros for Amazon-type sellers should not be interpreted as quality zero.
+spedizione_consegna,raw source field,spedizione_consegna,source for reconstruction only,source for reconstruction only,source for reconstruction only,Preferred raw text source for delivery and shipping reconstruction.
+g_cons_min / g_cons_max / g_cons_vel_min / g_cons_vel_max,stored parsed fields,g_cons_min_robust / g_cons_max_robust / g_cons_vel_min_robust / g_cons_vel_max_robust,yes after reconstruction,yes after reconstruction,yes after reconstruction,Stored delivery fields fail in five entire markets and must be reparsed from raw text.
+g_spedizione / g_spedizione_vel,stored convenience,recompute from reparsed delivery bounds,yes after reconstruction,yes after reconstruction,yes after reconstruction,Only use after the delivery parser is repaired.
+dif_prezzo,stored convenience,recompute only inside the final sample if needed,no,no,no,Invalid after the Nuovo restriction and invalid in every audited candidate sample.
+dif_prezzo_tot,stored convenience,recompute only inside the final sample if needed,no,no,no,Invalid after the Nuovo restriction and invalid in every audited candidate sample.
+rapp_piu_basso,stored convenience,recompute only inside the final sample if needed,no,no,no,Invalid after the Nuovo restriction and invalid in every audited candidate sample.
+dif_prezzo_sped,stored convenience,recompute only inside the final sample if needed,yes with caution,yes with caution,no,"Stable numerically in the audited candidate samples, but still market-relative."
+delta_num_val,stored convenience,recompute only inside the final sample if needed,yes with caution,yes with caution,no,"Market-relative, not a primitive covariate."
+delta_val_pos(%),stored convenience,recompute only inside the final sample if needed,yes with caution,yes with caution,no,"Market-relative, not a primitive covariate."
+delta_consegna,stored convenience,recompute from reparsed delivery fields inside the final sample if needed,yes with caution,yes with caution,no,Depends on repaired delivery parsing and on market minima.
+qta_min,raw source field,qta_min,redundant,redundant,redundant,Always equal to 1 in this file.
+prezzo_prod_venduto(€),stored convenience,prezzo,redundant,redundant,redundant,Equal to prezzo everywhere in this file.

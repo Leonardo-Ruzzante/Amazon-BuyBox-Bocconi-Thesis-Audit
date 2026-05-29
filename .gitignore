@@ -1,0 +1,40 @@
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Editor and IDE files
+.idea/
+.vscode/
+*.iml
+
+# Python and notebook runtime files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# R runtime files
+.RData
+.Rhistory
+.Rproj.user/
+
+# Java and Maven build outputs
+target/
+
+# Local logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Environment files and credentials
+.env
+.env.*
+!.env.example
+credentials/
+*.secret.json
+*credentials*.json
+
+# Local browser drivers
+chromedriver
+chromedriver.exe
+geckodriver
+geckodriver.exe

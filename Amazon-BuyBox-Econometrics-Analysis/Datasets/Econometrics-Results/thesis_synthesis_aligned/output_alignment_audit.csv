@@ -1,0 +1,24 @@
+file,rows,required_columns,status
+main_results_market_fe_rankpct.csv,4,"specification, coef_fba, se_fba, pvalue_fba, ci_low, ci_high, r_squared",loaded
+dynamic_fba_premium_inference_rankpct.csv,4,"method, estimate, se, pvalue",loaded
+dynamic_rank_tier_stress_diagnostics_rankpct.csv,4,"object, estimate, se, pvalue, condition_number",loaded
+dynamic_starting_rank_adjustment_diagnostics_rankpct.csv,4,"model_label, model_role, estimate, se, pvalue, condition_number",loaded
+dynamic_starting_rank_quartile_support_rankpct.csv,4,"lag_rank_quartile, observations, fba_share",loaded
+binary_top10_prominence_inference_rankpct.csv,4,"method, estimate, se, pvalue",loaded
+binary_top10_prominence_diagnostics_rankpct.csv,5,"threshold_label, risk_set_observations, events, event_rate",loaded
+binary_top10_prominence_threshold_family_rankpct.csv,5,"threshold_label, estimate, se, pvalue, ci_low, ci_high, fdr_qvalue_bh",loaded
+binary_top10_fitted_probability_audit_rankpct.csv,1,"model_role, outcome, fitted_outside_unit_interval_share, fitted_min, fitted_max",loaded
+fractional_logit_ape_rankpct.csv,1,"estimate, se, pvalue",loaded
+bounded_outcome_diagnostics_rankpct.csv,1,"fitted_outside_unit_interval_rows, fitted_outside_unit_interval_share",loaded
+overlap_design_status_summary_rankpct.csv,2,"overlap_status, designs, median_mean_abs_smd",loaded
+dynamic_distance_banded_turnover_rankpct.csv,8,"term, estimate, se, pvalue, ci_low, ci_high, band_k",loaded
+dynamic_permutation_placebo_turnover_rankpct.csv,1,"observed_beta, permutation_p_value_two_sided, permutation_cell",loaded
+interaction_terms_rankpct.csv,8,"term_name, coef_fba, se_fba, pvalue_fba",loaded
+interaction_margins_rankpct.csv,12,"contrast_label, estimate, se, pvalue, ci_low, ci_high, moderator",loaded
+dynamic_pre_disappearance_smoothness_rankpct.csv,9,"variable, standardized_difference, pvalue_welch, materially_abnormal",loaded
+audit_consistency_checks.csv,34,"object, check_type, critical, passed, warning, detail",loaded
+functional_form_diagnostics_rankpct.csv,3,"diagnostic, statistic, pvalue",loaded
+spline_functional_form_sensitivity_rankpct.csv,1,"coef_fba, se_fba, pvalue_fba",loaded
+temporal_stability_rankpct.csv,2,"sample, coef_fba, se_fba, pvalue_fba",loaded
+dynamic_return_pattern_rankpct.csv,4,"return_category, dropout_observations, share",loaded
+binary_top10_prominence_stockout_consistency_rankpct.csv,2,"stockout_definition, estimate, se, pvalue",loaded

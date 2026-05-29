@@ -1,0 +1,5 @@
+rule,interpretation
+primary_interactions,Only product price and delivery-days interactions are treated as pre-motivated primary heterogeneity checks.
+secondary_interactions,Review-count and positive-review interactions are exploratory and should be discussed only if corrected p-values support them.
+star_rating_functional_form,Star-rating heterogeneity is not modeled as a linear interaction; the ordinal nature of stelle is checked through the categorical-star OLS and overlap specifications.
+excluded_shipping_interaction,Shipping-price interaction is excluded because FBA has zero positive-shipping support in the final sample.

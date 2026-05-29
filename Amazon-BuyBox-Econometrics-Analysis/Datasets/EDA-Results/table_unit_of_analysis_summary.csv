@@ -1,0 +1,11 @@
+metric,value
+rows_in_nuovo_offer_raw,5786
+timestamps_in_nuovo_offer_raw,62
+markets_with_repeated_seller,62
+timestamp_seller_groups_with_repeated_seller,442
+seller_excess_rows_beyond_one_per_timestamp_seller,617
+strict_duplicate_offer_groups,24
+rows_in_strict_duplicate_offer_groups,48
+relaxed_duplicate_offer_groups,56
+rows_in_relaxed_duplicate_offer_groups,112
+timestamps_with_relaxed_duplicate_winning_offer,32

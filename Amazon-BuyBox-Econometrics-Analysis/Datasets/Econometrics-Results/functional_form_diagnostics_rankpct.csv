@@ -1,0 +1,4 @@
+diagnostic,status,statistic,pvalue,df_num,df_den,interpretation
+Ramsey RESET power 2,estimated,5994.163008428018,0.0,1.0,5036.0,Direct nested-model RESET F-test using powers of fitted values; rejection flags possible functional-form misspecification.
+Ramsey RESET power 3,estimated,8320.171193091908,0.0,2.0,5035.0,Direct nested-model RESET F-test using powers of fitted values; rejection flags possible functional-form misspecification.
+Harvey-Collier linearity test,not_reported,,,,,Not interpreted because the high-dimensional market fixed-effects design makes the recursive-residual setup ill-conditioned; RESET and nonlinear-control sensitivity are used instead.

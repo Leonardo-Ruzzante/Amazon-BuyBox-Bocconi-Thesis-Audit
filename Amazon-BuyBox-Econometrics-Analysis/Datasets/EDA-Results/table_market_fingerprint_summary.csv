@@ -1,0 +1,8 @@
+top_k,duplicate_market_count,unique_fingerprint_count
+all,0,62
+50,0,62
+40,0,62
+30,0,62
+20,1,61
+10,15,47
+5,30,32

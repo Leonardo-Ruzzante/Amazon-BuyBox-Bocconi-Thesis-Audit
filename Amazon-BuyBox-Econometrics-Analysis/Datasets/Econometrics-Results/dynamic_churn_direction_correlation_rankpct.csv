@@ -1,0 +1,2 @@
+observation_level_correlation_dropouts_above_below,transition_level_correlation_mean_above_below,observations,transitions,share_observations_with_above_dropout,share_observations_with_below_dropout,interpretation
+-0.02118889696106956,0.4077394871550582,4958,61,0.35074626865671643,0.32210568777732956,High positive correlation indicates that the data identify differential response to total seller-list turnover better than a sharply separated above-only or below-only channel.

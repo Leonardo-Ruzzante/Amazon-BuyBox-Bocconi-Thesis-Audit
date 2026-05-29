@@ -1,0 +1,13 @@
+variable,valid_adjacent_seller_transitions,transitions_with_change,transitions_without_change,share_of_transitions_with_change,interpretation_note
+rank_pct,4958,3893,1065,0.7851956434045986,Variation is computed across adjacent markets for sellers present in both snapshots.
+rank_pos,4958,2879,2079,0.5806776926179911,Variation is computed across adjacent markets for sellers present in both snapshots.
+prezzo,4958,288,4670,0.05808793868495361,Variation is computed across adjacent markets for sellers present in both snapshots.
+prezzo_totale_reconstructed,4958,336,4622,0.06776926179911255,Variation is computed across adjacent markets for sellers present in both snapshots.
+prezzo_spedizione_repaired,4958,51,4907,0.010286405808793869,Variation is computed across adjacent markets for sellers present in both snapshots.
+g_cons_min_robust,4958,1558,3400,0.31423961274707546,Variation is computed across adjacent markets for sellers present in both snapshots.
+g_cons_max_robust,4958,1581,3377,0.31887858007260994,Variation is computed across adjacent markets for sellers present in both snapshots.
+delivery_window_robust,4958,699,4259,0.1409842678499395,Variation is computed across adjacent markets for sellers present in both snapshots.
+log1p_num_valutazioni,4958,898,4060,0.1811214199273901,Variation is computed across adjacent markets for sellers present in both snapshots.
+valutazioni_positive,4958,212,4746,0.042759177087535294,Variation is computed across adjacent markets for sellers present in both snapshots.
+stelle,4958,35,4923,0.0070592981040742235,Variation is computed across adjacent markets for sellers present in both snapshots.
+fba_from_shipper,4958,0,4958,0.0,Variation is computed across adjacent markets for sellers present in both snapshots.

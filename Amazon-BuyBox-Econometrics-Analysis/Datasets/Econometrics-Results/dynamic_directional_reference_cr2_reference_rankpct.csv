@@ -1,0 +1,3 @@
+method,estimate_lambda,se,test_statistic,dof_reference,pvalue,clusters,cr2_adjustment,note
+cr2_seller,0.003606373573672765,0.0017134301615441378,2.104768349836163,8.740254144803657,0.06552077969360814,114,True,Bell-McCaffrey-style one-way CR2 correction on the residualized dynamic design
+cr2_transition,0.003606373573672765,0.0014803769920794104,2.4361183623956997,6.038433146875361,0.05048105471212483,61,True,Bell-McCaffrey-style one-way CR2 correction on the residualized dynamic design

@@ -1,0 +1,12 @@
+audit_quantity,value,interpretation
+Retained markets,62,Timestamped third-party seller lists in the final panel.
+Adjacent-in-rank seller pairs checked,5045,Adjacent comparisons after sorting sellers by recomputed rank position within each retained market.
+Adjacent-in-rank pairs non-decreasing in total price,4995,Seller-list order is overwhelmingly aligned with reconstructed total price.
+Adjacent-in-rank price-order inversions,50,"Apparent departures from exact price sorting, equal to 1.0% of adjacent comparisons."
+Inversions involving a contact-courier row,50,One adjacent seller is a contact-courier offer with an unobserved checkout shipping price; the apparent inversion cannot be confirmed.
+Determinate inversions (both sellers fully price-observed),0,Inversions confirmable from observed prices.
+Determinate inversions comparing two non-FBA sellers,0,Most confirmable inversions compare sellers with the same fulfillment classification.
+Determinate inversions with FBA above a cheaper non-FBA seller,0,Only a small subset of confirmable inversions has the fulfillment pattern most relevant to the residual FBA interpretation.
+Markets containing at least one inversion,50,Apparent inversions are spread across many markets rather than concentrated in a few.
+Distinct adjacent seller-pair identities among inversions,2,Apparent inversions recur across a limited set of seller-pair identities.
+Mean within-market Spearman correlation,0.991,Rank position and reconstructed total price are nearly monotone in the retained panel.

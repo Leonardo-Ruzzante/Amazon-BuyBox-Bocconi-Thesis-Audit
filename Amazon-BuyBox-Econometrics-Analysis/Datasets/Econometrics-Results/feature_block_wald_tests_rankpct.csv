@@ -1,0 +1,4 @@
+feature_block,features,model_terms,df_num,df_denom,test_statistic,wald_chi2,pvalue,stars,test_type,status,missing_features
+reputation_block,"['log1p_num_valutazioni', 'valutazioni_positive', 'stelle']","['log1p_num_valutazioni', 'valutazioni_positive', 'stelle']",3,61.0,1.519668585991037,4.559005757973111,0.21841289917642656,,F test using supplied denominator degrees of freedom,estimated,[]
+commercial_terms_block,"['prezzo', 'prezzo_spedizione_repaired', 'contact_courier_flag']","['prezzo', 'prezzo_spedizione_repaired', 'contact_courier_flag']",3,61.0,237.23342005890478,711.7002601767143,1.4152801236165644e-33,***,F test using supplied denominator degrees of freedom,estimated,[]
+delivery_block,['g_cons_min_robust'],['g_cons_min_robust'],1,61.0,5.075613228507435,5.075613228507435,0.027872332433557676,**,F test using supplied denominator degrees of freedom,estimated,[]

@@ -1,0 +1,38 @@
+section,check_name,passed,detail
+1,input_file_exists,True,/content/drive/MyDrive/Amazon-BuyBox-Econometrics-Analysis/Datasets/Sport e tempo libero - Smartwatch - Xiaomi Mi Smart Band 6.csv
+1,input_filename_recognized,True,Sport e tempo libero - Smartwatch - Xiaomi Mi Smart Band 6.csv
+1,input_file_nonempty,True,2967342 bytes
+2,raw_dataframe_nonempty,True,rows=9424
+2,column_exists::timestamp,True,timestamp
+2,column_exists::condizione,True,condizione
+2,column_exists::venduto_da,True,venduto_da
+2,column_exists::spedito_da,True,spedito_da
+2,column_exists::fba,True,fba
+2,raw_identity_problem_rows_count,True,raw_identity_problem_rows=1
+2,audit_count::final_rows,True,"expected=5107, actual=5107"
+2,audit_count::n_markets,True,"expected=62, actual=62"
+2,audit_count::fba_rows,True,"expected=996, actual=996"
+2,audit_count::non_fba_rows,True,"expected=4111, actual=4111"
+2,audit_count::buy_box_third_party_support,True,"expected=0, actual=0"
+2,audit_count::review_problem_rows,True,"expected=92, actual=92"
+2,audit_count::review_problem_sellers,True,"expected=3, actual=3"
+2,audit_count::contact_courier_rows,True,"expected=50, actual=50"
+2,audit_count::contact_courier_sellers,True,"expected=1, actual=1"
+2,audit_count::mixed_fba_sellers_raw_new,True,"expected=2, actual=2"
+2,audit_count::mixed_fba_sellers_final,True,"expected=0, actual=0"
+2,audit_count::delivery_failure_markets,True,"expected=5, actual=5"
+3a,price_order_pairs_equal_sellers_minus_markets,True,"pairs=5045, sellers-markets=5045"
+3a,price_order_consistent_plus_inversions_equal_pairs,True,"4995 + 50 = 5045, pairs=5045"
+3a,price_order_determinate_plus_contact_equal_inversions,True,"0 + 50 = 50, inversions=50"
+3b,turnover_audit_all_final_cells_matched_to_raw_rank,True,every final-panel seller-market cell is matched to a pre-collapse third-party rank
+3b,turnover_audit_compression_non_negative,True,"compressed_cells=207, max_compression=7"
+3b,turnover_audit_compressed_cells_within_panel,True,"compressed_cells=207, panel_rows=5107"
+6.1,fast_delivery_baseline_premium_is_4_99,True,premium_eur=4.99
+6.1,fast_delivery_sensitivity_grid_contains_3_99_4_99_8_99,True,"{'pickup_point_lower_sensitivity_eur_3_99': 3.99, 'premium_delivery_baseline_eur_4_99': 4.99, 'same_day_upper_sensitivity_eur_8_99': 8.99}"
+6.1,fast_delivery_cost_is_fba_only_indicator_rescale,True,premium_eur=4.99; rule=premium*fast_delivery_available*fba_from_shipper
+6.1,non_fba_fast_delivery_cost_is_zero,True,non-FBA observations must receive zero imputed FBA logistics value
+6,matrix_and_statsmodels_headline_fba_match,True,matrix=-0.051038151706; statsmodels=-0.051038151706
+10,dynamic_vacancy_panel_nonempty,True,rows=4958
+10,dynamic_vacancy_transitions_available,True,transitions=61
+G.4c,audit_consistency_all_critical_tables_present,True,[]
+G.4c,audit_bootstrap_quality_metadata_recorded,True,"[{'object': 'wild_cluster_bootstrap_table', 'passed': True, 'quality_passed': True, 'warning': False, 'detail': 'bootstrap_quality_checks: min_valid_share=1.000; max_invalid_share=0.000; warning_threshold=0.800'}, {'object': 'dynamic_wcb_table', 'passed': True, 'quality_passed': True, 'warning': False, 'detail': 'bootstrap_quality_checks: min_valid_share=0.996; max_invalid_share=0.004; warning_threshold=0.800'}, {'object': 'dynamic_fba_premium_inference_table', 'passed': True, 'quality_passed': True, 'warning': False, 'detail': 'bootstrap_quality_checks: min_valid_share=0.996; max_invalid_share=0.004; warning_threshold=0.800'}]"

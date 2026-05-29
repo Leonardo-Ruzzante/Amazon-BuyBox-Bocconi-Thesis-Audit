@@ -1,0 +1,2 @@
+sample,outcome,specification,estimator,inference,term_name,coef_fba,se_fba,test_statistic,pvalue_fba,ci_low,ci_high,stars,dof_reference,nobs,clusters,r_squared,note
+full_sample,rank_pct,spec_4_fba_reputation_price_shipping_delivery,market_fe_ols,cr2_seller_id,fba_from_shipper,-0.05103815170628886,0.016747872809069617,-3.0474408474519663,0.006922276960815488,-0.08622035180188413,-0.015855951610693586,***,18.02698491571645,5107,119,0.9593810046078374,One-way CR2-style small-sample correction; reported as a conservative supplement to two-way clustered headline inference.

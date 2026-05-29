@@ -1,0 +1,2 @@
+model,diagnostic,status,pair_rule,n_pairs,clusters,rho_hat,se_clustered,t_statistic,pvalue_clustered,inference,interpretation
+dynamic_total_turnover_preferred_available_fit,lag_residual_regression,estimated,consecutive_market_pairs,4815,110,-0.3131148938792542,0.2599308001914346,-1.2046086637237694,0.23096347349419347,seller_clustered,Significant residual persistence would invalidate iid standard errors; it supports the thesis choice to use clustered/bootstrapped inference.

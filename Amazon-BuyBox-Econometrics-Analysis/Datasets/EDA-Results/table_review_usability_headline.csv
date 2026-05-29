@@ -1,0 +1,8 @@
+metric,value
+third_party_rows_in_preferred_sample,5107.0
+third_party_sellers_in_preferred_sample,119.0
+rows_with_strict_positive_review_support,5015.0
+share_rows_with_strict_positive_review_support,0.9819855100841982
+rows_with_any_review_problem,92.0
+share_rows_with_any_review_problem,0.018014489915801842
+sellers_with_any_review_problem,3.0

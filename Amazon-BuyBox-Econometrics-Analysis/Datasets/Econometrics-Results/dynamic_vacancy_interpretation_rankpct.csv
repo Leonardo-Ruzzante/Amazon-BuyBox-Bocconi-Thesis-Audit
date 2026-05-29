@@ -1,0 +1,6 @@
+object,interpretation
+dynamic_estimand,differential rank_pct adjustment for FBA sellers during seller-disappearance transitions; in the final specification this object is treated as a decomposition component of the broader turnover-premium design
+identification_gain_over_static_ols,seller fixed effects absorb time-invariant seller quality and transition fixed effects absorb shocks common to a pair of consecutive markets
+remaining_limitation,"seller disappearance is observed disappearance from the offer list, not verified random stock-out, so the design is stronger than static OLS but still observational"
+rank_tier_sensitivity,the dynamic vacancy model is re-estimated by baseline rank tier to check whether the FBA-vacancy response is concentrated near the economically more visible top of the ranking
+preferred_reading,the final dynamic mechanism tests whether FBA status is associated with stronger rank adjustment during seller turnover; the clean local above-turnover channel is not the primary claim

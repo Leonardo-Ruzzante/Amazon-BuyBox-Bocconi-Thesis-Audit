@@ -1,0 +1,2 @@
+sample,outcome,specification,estimator,inference,term_name,coef_fba,se_fba,test_statistic,pvalue_fba,ci_low,ci_high,stars,dof_reference,nobs,r_squared,seller_clusters,market_clusters,scale_note
+full_sample,rank_pct,spec_4_fba_reputation_price_shipping_delivery,papke_wooldridge_fractional_logit_irls,two_way_seller_market,fba_from_shipper,-0.08500155144608074,0.07002539922257155,-1.2138674308147588,0.2294772706818593,-0.22502599128022108,0.055022888388059604,,61,5107,,119,62,Coefficient is on the fractional-logit index scale; estimated by IRLS quasi-likelihood.

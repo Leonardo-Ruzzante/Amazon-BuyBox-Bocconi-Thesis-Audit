@@ -1,0 +1,289 @@
+outcome: rank_pct
+lower_values_mean: better competitive position
+specifications:
+  spec_1_fba_only:
+  - fba_from_shipper
+  spec_2_fba_reputation:
+  - fba_from_shipper
+  - log1p_num_valutazioni
+  - valutazioni_positive
+  - stelle
+  spec_3_fba_reputation_totalprice_delivery: &id002
+  - fba_from_shipper
+  - log1p_num_valutazioni
+  - valutazioni_positive
+  - stelle
+  - prezzo_totale_reconstructed
+  - contact_courier_flag
+  - g_cons_min_robust
+  spec_4_fba_reputation_price_shipping_delivery: &id001
+  - fba_from_shipper
+  - log1p_num_valutazioni
+  - valutazioni_positive
+  - stelle
+  - prezzo
+  - prezzo_spedizione_repaired
+  - contact_courier_flag
+  - g_cons_min_robust
+headline_specification: spec_4_fba_reputation_price_shipping_delivery
+headline_inference: two_way_seller_market
+blocked_design_choices:
+  machine_learning_residualization: excluded from this econometric notebook by design
+  equal_market_size_sample_modification: excluded because it would change the target
+    sample composition
+  binary_outcomes: continuous rank_pct remains primary; entered_top_10 is included
+    as a complementary binary-prominence estimand; other binary outcomes remain auxiliary
+    salience screens
+  seller_fixed_effects: not identified for FBA because final within-seller FBA switching
+    equals zero
+  shipping_interaction: excluded because FBA offers have zero shipping price support
+    in the final sample
+  estimator_zoo: not expanded into Plackett-Luce, GEE, or ordered beta because those
+    estimators would change the estimand rather than directly stress-test the headline
+    linear rank-percent association
+fast_delivery_cost_imputation:
+  premium_eur: 4.99
+  premium_label: premium_delivery_baseline_eur_4_99
+  sensitivity_grid_eur:
+    pickup_point_lower_sensitivity_eur_3_99: 3.99
+    premium_delivery_baseline_eur_4_99: 4.99
+    same_day_upper_sensitivity_eur_8_99: 8.99
+  variable: fast_delivery_cost_imputed
+  definition: FAST_DELIVERY_PREMIUM_EUR multiplied by fast_delivery_available and
+    fba_from_shipper
+  source_role: External Amazon.it Premium fast-delivery benchmark supplied for the
+    thesis analysis; baseline EUR 4.99, not directly observed in the scraped CSV
+  collinearity_rule: Do not interpret fast_delivery_cost_imputed as a directly observed
+    checkout price; it is an FBA-only logistics-value proxy.
+  baseline_rule: EUR 4.99 is retained as the baseline Premium fast-delivery benchmark;
+    EUR 3.99 and EUR 8.99 are sensitivity translations only.
+extended_control_specifications:
+  headline_baseline: *id001
+  delivery_max_substituted:
+  - fba_from_shipper
+  - log1p_num_valutazioni
+  - valutazioni_positive
+  - stelle
+  - prezzo
+  - prezzo_spedizione_repaired
+  - contact_courier_flag
+  - g_cons_max_robust
+  delivery_window_added:
+  - fba_from_shipper
+  - log1p_num_valutazioni
+  - valutazioni_positive
+  - stelle
+  - prezzo
+  - prezzo_spedizione_repaired
+  - contact_courier_flag
+  - g_cons_min_robust
+  - delivery_window_robust
+  fast_delivery_cost_imputed_added:
+  - fba_from_shipper
+  - log1p_num_valutazioni
+  - valutazioni_positive
+  - stelle
+  - prezzo
+  - prezzo_spedizione_repaired
+  - contact_courier_flag
+  - g_cons_min_robust
+  - fast_delivery_cost_imputed
+  extended_logistics_bundle:
+  - fba_from_shipper
+  - log1p_num_valutazioni
+  - valutazioni_positive
+  - stelle
+  - prezzo
+  - prezzo_spedizione_repaired
+  - contact_courier_flag
+  - g_cons_min_robust
+  - delivery_window_robust
+  - fast_delivery_cost_imputed
+price_measure_specifications:
+  split_price_headline: *id001
+  total_price_parallel: *id002
+price_star_specifications:
+  split_price_linear_stars:
+  - fba_from_shipper
+  - log1p_num_valutazioni
+  - valutazioni_positive
+  - stelle
+  - prezzo
+  - prezzo_spedizione_repaired
+  - contact_courier_flag
+  - g_cons_min_robust
+  split_price_linear_stars_no_positive_reviews:
+  - fba_from_shipper
+  - log1p_num_valutazioni
+  - stelle
+  - prezzo
+  - prezzo_spedizione_repaired
+  - contact_courier_flag
+  - g_cons_min_robust
+  split_price_categorical_stars:
+  - fba_from_shipper
+  - log1p_num_valutazioni
+  - valutazioni_positive
+  - C(stelle_cat, Treatment(reference="4.5"))
+  - prezzo
+  - prezzo_spedizione_repaired
+  - contact_courier_flag
+  - g_cons_min_robust
+  split_price_categorical_stars_no_positive_reviews:
+  - fba_from_shipper
+  - log1p_num_valutazioni
+  - C(stelle_cat, Treatment(reference="4.5"))
+  - prezzo
+  - prezzo_spedizione_repaired
+  - contact_courier_flag
+  - g_cons_min_robust
+  total_price_linear_stars:
+  - fba_from_shipper
+  - log1p_num_valutazioni
+  - valutazioni_positive
+  - stelle
+  - prezzo_totale_reconstructed
+  - contact_courier_flag
+  - g_cons_min_robust
+  total_price_linear_stars_no_positive_reviews:
+  - fba_from_shipper
+  - log1p_num_valutazioni
+  - stelle
+  - prezzo_totale_reconstructed
+  - contact_courier_flag
+  - g_cons_min_robust
+  total_price_categorical_stars:
+  - fba_from_shipper
+  - log1p_num_valutazioni
+  - valutazioni_positive
+  - C(stelle_cat, Treatment(reference="4.5"))
+  - prezzo_totale_reconstructed
+  - contact_courier_flag
+  - g_cons_min_robust
+  total_price_categorical_stars_no_positive_reviews:
+  - fba_from_shipper
+  - log1p_num_valutazioni
+  - C(stelle_cat, Treatment(reference="4.5"))
+  - prezzo_totale_reconstructed
+  - contact_courier_flag
+  - g_cons_min_robust
+price_star_metadata:
+  split_price_linear_stars:
+    price_measure: split_price
+    star_form: linear_stars
+    positive_review_form: positive_reviews_included
+    price_control_definition: product price plus shipping price separately
+    star_control_definition: star rating entered linearly
+    positive_review_control_definition: positive-review percentage included
+    role: headline_price_decomposition
+  split_price_linear_stars_no_positive_reviews:
+    price_measure: split_price
+    star_form: linear_stars
+    positive_review_form: positive_reviews_dropped
+    price_control_definition: product price plus shipping price separately
+    star_control_definition: star rating entered linearly
+    positive_review_control_definition: positive-review percentage excluded to test
+      sensitivity to the highly collinear reputation proxy
+    role: positive_review_exclusion_sensitivity
+  split_price_categorical_stars:
+    price_measure: split_price
+    star_form: categorical_stars
+    positive_review_form: positive_reviews_included
+    price_control_definition: product price plus shipping price separately
+    star_control_definition: star rating entered as category indicators, 4.5-star
+      reference
+    positive_review_control_definition: positive-review percentage included
+    role: categorical_star_sensitivity
+  split_price_categorical_stars_no_positive_reviews:
+    price_measure: split_price
+    star_form: categorical_stars
+    positive_review_form: positive_reviews_dropped
+    price_control_definition: product price plus shipping price separately
+    star_control_definition: star rating entered as category indicators, 4.5-star
+      reference
+    positive_review_control_definition: positive-review percentage excluded to test
+      sensitivity to the highly collinear reputation proxy
+    role: positive_review_exclusion_sensitivity
+  total_price_linear_stars:
+    price_measure: total_price
+    star_form: linear_stars
+    positive_review_form: positive_reviews_included
+    price_control_definition: total reconstructed buyer-facing price
+    star_control_definition: star rating entered linearly
+    positive_review_control_definition: positive-review percentage included
+    role: parallel_total_price_sensitivity
+  total_price_linear_stars_no_positive_reviews:
+    price_measure: total_price
+    star_form: linear_stars
+    positive_review_form: positive_reviews_dropped
+    price_control_definition: total reconstructed buyer-facing price
+    star_control_definition: star rating entered linearly
+    positive_review_control_definition: positive-review percentage excluded to test
+      sensitivity to the highly collinear reputation proxy
+    role: positive_review_exclusion_sensitivity
+  total_price_categorical_stars:
+    price_measure: total_price
+    star_form: categorical_stars
+    positive_review_form: positive_reviews_included
+    price_control_definition: total reconstructed buyer-facing price
+    star_control_definition: star rating entered as category indicators, 4.5-star
+      reference
+    positive_review_control_definition: positive-review percentage included
+    role: parallel_total_price_sensitivity
+  total_price_categorical_stars_no_positive_reviews:
+    price_measure: total_price
+    star_form: categorical_stars
+    positive_review_form: positive_reviews_dropped
+    price_control_definition: total reconstructed buyer-facing price
+    star_control_definition: star rating entered as category indicators, 4.5-star
+      reference
+    positive_review_control_definition: positive-review percentage excluded to test
+      sensitivity to the highly collinear reputation proxy
+    role: positive_review_exclusion_sensitivity
+dynamic_vacancy_design:
+  outcome: rank_pct_improvement
+  outcome_definition: lagged rank_pct minus current rank_pct; positive values indicate
+    upward movement
+  reference_exposure: dropouts_above
+  reference_interaction: fba_from_shipper times dropouts_above
+  fixed_effects:
+  - seller_id
+  - transition_id
+  within_seller_diagnostic: rank outcomes and turnover exposure vary within seller;
+    fba_from_shipper does not, so the identified dynamic term is the interaction between
+    FBA status and time-varying turnover exposure
+  inference: two-way clustering by seller and transition
+  status: reference above-exposure table retained for above/below decomposition; not
+    the final primary dynamic claim
+dynamic_fba_premium_design:
+  outcome: rank_pct_improvement
+  outcome_definition: lagged rank_pct minus current rank_pct; positive values indicate
+    upward movement
+  primary_exposure: dropouts_total_focal
+  primary_interaction: fba_from_shipper times dropouts_total_focal
+  directional_control: fba_from_shipper times dropout_direction_balance
+  fixed_effects:
+  - seller_id
+  - transition_id
+  rank_position_validation:
+    D1: seller_id and transition_id fixed effects with lag_rank_pct
+    D2: D1 plus additive lag-rank-quartile indicators; q1_top_25pct omitted
+    D3: D1 plus lag_rank_pct squared
+    D4: seller_id and transition_id x lag_rank_tier fixed effects as a severe stress
+      test
+  strict_stress_fixed_effects:
+  - seller_id
+  - transition_id x lag_rank_tier
+  inference: two-way clustering by seller and transition, plus CR2 and wild-cluster
+    sensitivity for the premium coefficient
+  status: main dynamic premium design, with hardening diagnostics reported in the
+    main text
+dynamic_hardening_design:
+  clean_turnover_restrictions: one-sided above/no-below, below/no-above, single-sided,
+    and mixed-turnover subsamples
+  distance_banded_exposure: dropouts within 1, 3, 5, and 10 lag-rank positions above
+    or below the focal seller
+  partial_identification_bound: lambda_above minus lambda_below using joint covariance
+    when available
+  rank_tier_stress_role: severe support-sensitive stress test; not the primary rank-position-adjusted
+    estimator

@@ -1,0 +1,5 @@
+sample,group,rows,min_total_price,min_product_price,rows_total_price_below_35,positive_shipping_rows,positive_shipping_share
+raw_extraction,FBA,4707,25.04,25.04,3528,0,0.0
+raw_extraction,non_FBA,4717,34.99,29.62,1,1790,0.37947848208607166
+final_seller_market_panel,FBA,996,38.0,38.0,0,0,0.0
+final_seller_market_panel,non_FBA,4111,39.0,34.65,0,1664,0.40476769642422766

@@ -1,0 +1,5 @@
+stockout_classification,events,unique_sellers,fba_share,mean_lag_rank_pct,share_top_quartile,share_bottom_quartile
+broad_stockout_consistent_later_return_nonprice_exit,19,15,0.2631578947368421,0.5295194303352073,0.3157894736842105,0.3684210526315789
+persistent_absence_or_unverified_exit,29,29,0.41379310344827586,0.3878887597141131,0.4827586206896552,0.20689655172413793
+price_outlier_or_possible_strategic_exit,1,1,0.0,1.0,0.0,1.0
+strict_stockout_consistent_near_term_nonprice_exit,11,10,0.09090909090909091,0.6878065578847405,0.09090909090909091,0.5454545454545454

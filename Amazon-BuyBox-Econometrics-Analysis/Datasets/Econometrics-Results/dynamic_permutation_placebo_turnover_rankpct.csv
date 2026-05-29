@@ -1,0 +1,2 @@
+observed_beta,permutation_mean,permutation_sd,permutation_p_value_two_sided,permutation_monte_carlo_se,valid_permutations,requested_permutations,permutation_cell,interpretation
+0.002467258032983047,0.0014916482421345992,0.0005870236167033614,0.0396,0.0027579644667761766,4999,4999,transition_id x lag_rank_tier,Randomizes FBA status locally within transition-by-starting-rank-tier cells; this is a rank-composition placebo for the primary total-turnover coefficient.

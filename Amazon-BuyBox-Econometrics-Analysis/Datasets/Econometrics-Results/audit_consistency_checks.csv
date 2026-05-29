@@ -1,0 +1,35 @@
+object,check_type,required_columns,rows,missing_columns,critical,passed,warning,detail,quality_passed
+chen_tsai_mapping_table,critical_table_presence,"design_dimension, chen_tsai_2024, this_thesis, implication_for_interpretation",12,,True,True,False,ok,
+dynamic_support_mde_table,critical_table_presence,"model_or_subsample, outcome, observations, sellers, transitions, estimated_se_for_key_term, mde_80_power_alpha_0_05, power_warning",9,,True,True,False,ok,
+dynamic_power_audit,critical_table_presence,"model_or_subsample, mde_80_power_alpha_0_05, power_warning",9,,True,True,False,ok,
+dynamic_cr2_table,critical_table_presence,"method, term, estimate_lambda, se, pvalue, target_estimand",2,,True,True,False,ok,
+dynamic_wcb_table,critical_table_presence,"term, estimate_lambda, two_way_cluster_se, bootstrap_pvalue, studentized, recomputed_se_each_replication, valid_replication_share, invalid_replication_share, target_estimand",1,,True,True,False,ok,
+above_below_decomposition_table,critical_table_presence,"exposure, interaction_term, estimate, se, pvalue",3,,True,True,False,ok,
+churn_direction_correlation_table,critical_table_presence,"observation_level_correlation_dropouts_above_below, transition_level_correlation_mean_above_below, interpretation",1,,True,True,False,ok,
+dynamic_churn_decomposition_table,critical_table_presence,"model_role, term, estimate, se, pvalue, interpretation",10,,True,True,False,ok,
+dynamic_churn_decomposition_summary_table,critical_table_presence,"preferred_dynamic_mechanism, validity_implication, premium_estimate, premium_pvalue",1,,True,True,False,ok,
+dynamic_fba_premium_summary_table,critical_table_presence,"evidence_block, term, premium_sign_normalized_estimate, two_sided_pvalue, role_in_claim",7,,True,True,False,ok,
+dynamic_fba_premium_inference_table,critical_table_presence,"method, term, estimate, se, pvalue",4,,True,True,False,ok,
+dynamic_clean_turnover_restriction_table,critical_table_presence,"sample_rule, term, estimate, se, pvalue, interpretation",4,,True,True,False,ok,
+dynamic_distance_banded_turnover_table,critical_table_presence,"band_k, term, estimate, se, pvalue, interpretation",8,,True,True,False,ok,
+dynamic_partial_identification_bounds_table,critical_table_presence,"bound_type, estimand, estimate, se, pvalue, interpretation",2,,True,True,False,ok,
+dynamic_rank_tier_stress_diagnostic_table,critical_table_presence,"object, estimate, pvalue, condition_number, interpretation",4,,True,True,False,ok,
+dynamic_hardening_summary_table,critical_table_presence,"test_family, model_role, term, estimate, se, pvalue, interpretation",15,,True,True,False,ok,
+dropout_process_table,critical_table_presence,"variable, estimate, se, pvalue",7,,True,True,False,ok,
+dropout_process_fit_summary_table,critical_table_presence,"r_squared, significant_observed_predictors, overwhelming_predictability_flag",1,,True,True,False,ok,
+smoothness_table,critical_table_presence,"variable, difference, standardized_difference, pvalue_welch, materially_abnormal",9,,True,True,False,ok,
+return_pattern_summary_table,critical_table_presence,"temporary_or_return_share, right_censored_share, pass_for_strong_claim",1,,True,True,False,ok,
+economic_salience_table,critical_table_presence,"outcome, estimate_lambda, se, pvalue, baseline_rate",3,,True,True,False,ok,
+conservative_dynamic_inference_table,critical_table_presence,"method, estimate, pvalue, source",4,,True,True,False,ok,
+dynamic_decision_quantities_table,critical_table_presence,"premium_lambda_turnover, premium_pvalue_preferred_two_sided, premium_conservative_pvalue, dynamic_claim_strength",1,,True,True,False,ok,
+dynamic_mechanism_validation_summary_table,critical_table_presence,"test_family, key_term, estimate, se_or_mde, pvalue, pass_flag, interpretation",17,,True,True,False,ok,
+final_claim_summary,critical_table_presence,"evidence_block, main_result, supports, outside_scope, required_caveat, final_claim_strength",21,,True,True,False,ok,
+spine_table_manifest,critical_table_presence,"spine_table, rows, columns",8,,True,True,False,ok,
+wild_cluster_bootstrap_table,bootstrap_quality_warning,"valid_replication_share, invalid_replication_share",1,,False,True,False,bootstrap_quality_checks: min_valid_share=1.000; max_invalid_share=0.000; warning_threshold=0.800,True
+dynamic_wcb_table,bootstrap_quality_warning,"valid_replication_share, invalid_replication_share",1,,False,True,False,bootstrap_quality_checks: min_valid_share=0.996; max_invalid_share=0.004; warning_threshold=0.800,True
+dynamic_fba_premium_inference_table,bootstrap_quality_warning,"valid_replication_share, invalid_replication_share",4,,False,True,False,bootstrap_quality_checks: min_valid_share=0.996; max_invalid_share=0.004; warning_threshold=0.800,True
+above_below_decomposition_table,numerical_pathology_warning,finite positive standard errors in interpreted rows; condition-number flags exposed,3,,False,True,True,numerical_pathology_scan: zero_se_present=False; ill_conditioned_present=True; interpret flagged rows only as appendix/unstable,True
+dynamic_churn_decomposition_table,numerical_pathology_warning,finite positive standard errors in interpreted rows; condition-number flags exposed,10,,False,True,False,numerical_pathology_scan: zero_se_present=False; ill_conditioned_present=False; interpret flagged rows only as appendix/unstable,True
+dynamic_fba_premium_summary_table,numerical_pathology_warning,finite positive standard errors in interpreted rows; condition-number flags exposed,7,,False,True,False,numerical_pathology_scan: zero_se_present=False; ill_conditioned_present=False; interpret flagged rows only as appendix/unstable,True
+dropout_composition_table,numerical_pathology_warning,finite positive standard errors in interpreted rows; condition-number flags exposed,2,,False,True,True,numerical_pathology_scan: zero_se_present=True; ill_conditioned_present=False; interpret flagged rows only as appendix/unstable,False
+dynamic_vacancy_rank_tier_models_table,numerical_pathology_warning,finite positive standard errors in interpreted rows; condition-number flags exposed,24,,False,True,True,numerical_pathology_scan: zero_se_present=True; ill_conditioned_present=False; interpret flagged rows only as appendix/unstable,False

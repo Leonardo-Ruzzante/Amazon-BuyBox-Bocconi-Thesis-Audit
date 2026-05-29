@@ -1,0 +1,19 @@
+object,interpretation
+headline_estimand,conditional within-market association between FBA and normalized competitive position
+primary_outcome,"rank_pct, where lower values indicate better ranking"
+headline_inference,"two-way seller-market clustered standard errors, with seller-only and market-only clustering reported as sensitivity checks"
+bounded_outcome_check,bounded-outcome fitted-value diagnostics and a fractional-response methodological note are reported; no second nonlinear estimand is promoted as a replacement for the linear rank-percent estimand
+finite_cluster_check,wild cluster bootstrap is reported with a two-way seller-market design that matches the headline inference to check finite-cluster sensitivity around the headline inference
+small_sample_cluster_check,"CR2-style one-way cluster corrections are reported as conservative small-sample supplements, not as replacements for the two-way headline covariance"
+functional_form_check,RESET and quadratic-control diagnostics test whether the linear rank-percent result is sensitive to functional-form restrictions; Harvey-Collier is not interpreted because the high-dimensional fixed-effects design makes it ill-conditioned
+overlap_check,propensity-score overlap and trimmed-sample estimates are reported for split-price and total-price specifications; they are classified by a common-support adequacy criterion and interpreted as support diagnostics unless observed covariate balance is achieved
+overlap_balance_check,FBA and non-FBA balance tests are re-run inside every overlap sample. Standardized mean differences are emphasized over p-values because overlap samples remain large enough for small residual differences to test as statistically significant.
+categorical_star_rating_check,"parallel OLS and overlap specifications enter stelle as category indicators, using 4.5 stars as the reference, to avoid imposing equal spacing across star-rating levels"
+positive_review_exclusion_check,parallel OLS and overlap specifications are also estimated without valutazioni_positive to check whether results depend on including a reputation-quality proxy that is highly correlated with stelle
+dynamic_vacancy_mechanism,"the final dynamic mechanism estimates whether FBA sellers move upward more than non-FBA sellers during seller-turnover transitions, using total turnover as the core premium exposure"
+dynamic_within_seller_variation_check,"within-seller diagnostics show that rank outcomes and turnover exposure vary over time, while FBA status does not; the dynamic design therefore estimates an FBA-by-turnover premium, not within-seller switching into FBA"
+dynamic_identification_gain,"the primary dynamic premium model includes seller fixed effects and transition fixed effects, so it is less exposed to time-invariant seller-selection bias than the static level regressions"
+dynamic_design_caveat,"seller disappearance is observed disappearance from the scraped offer list rather than verified random stock-out, so the dynamic design is a stronger observational mechanism test but outside definitive causal identification"
+not_identified,a seller fixed-effects FBA effect is not identified because the final seller-level panel has no within-seller FBA switching
+control_interpretation,"rich controls absorb commercial and logistics channels, so the primary full specification estimates a residual conditional association rather than a causal total effect"
+interaction_role,"interaction models describe heterogeneity in the conditional FBA association across observed offer characteristics, not causal moderation"

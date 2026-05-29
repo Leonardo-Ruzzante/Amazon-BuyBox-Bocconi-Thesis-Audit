@@ -1,0 +1,2 @@
+sample,outcome,specification,estimator,inference,term_name,coef_fba,se_fba,test_statistic,pvalue_fba,ci_low,ci_high,stars,dof_reference,nobs,r_squared,seller_clusters,market_clusters
+full_sample,rank_pct,mundlak_correlated_effects,pooled_ols_with_seller_means_and_market_fe,two_way_seller_market,fba_from_shipper,-0.04972375832172586,0.01643113745992889,-3.026190879541279,0.0036235292657074147,-0.08257984831489351,-0.016867668328558218,***,61,5107,0.9598534347673862,119,62

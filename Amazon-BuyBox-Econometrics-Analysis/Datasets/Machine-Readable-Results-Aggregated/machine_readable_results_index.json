@@ -1,0 +1,2376 @@
+{
+  "package_name": "Machine-Readable-Results-Aggregated",
+  "data_file": "machine_readable_results.jsonl",
+  "format_note": "One JSON object per line. Table data are stored as table_schema, table_profile, and table_chunk records.",
+  "counts": {
+    "tables": 223,
+    "table_rows_total": 49027,
+    "table_chunks": 265,
+    "text_documents": 2,
+    "skipped_figures_or_binary_files": 12,
+    "duplicate_payloads_not_repeated": 4,
+    "logical_source_files_seen": 241
+  },
+  "tables": [
+    {
+      "table_id": "raw_source.Sport_e_tempo_libero_-_Smartwatch_-_Xiaomi_Mi_Smart_Band_6.88c85f33e3",
+      "section": "raw_source",
+      "source_path": "Sport e tempo libero - Smartwatch - Xiaomi Mi Smart Band 6.csv",
+      "sha256": "88c85f33e3e640d6261d2ac1bb0b095ebf1c65ac8fc4edab9d850cd3c8abe5b5",
+      "rows": 9424,
+      "columns": 32,
+      "chunks": 10,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "raw_source.df_new_offer_raw.1193f468cb",
+      "section": "raw_source",
+      "source_path": "EDA-Results/df_new_offer_raw.csv",
+      "sha256": "1193f468cbf814994e7b1c55b80b0a372420820642d74ae8802a90f1c34f4c57",
+      "rows": 5786,
+      "columns": 66,
+      "chunks": 6,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.df_new_offer_relaxed_dedup.18cc5cd71b",
+      "section": "other",
+      "source_path": "EDA-Results/df_new_offer_relaxed_dedup.csv",
+      "sha256": "18cc5cd71ba69dd94cad85f79d1142a91ee5b863ab81f713cf45401748be8518",
+      "rows": 5730,
+      "columns": 65,
+      "chunks": 6,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.df_new_offer_strict_dedup.83d2ae5b52",
+      "section": "other",
+      "source_path": "EDA-Results/df_new_offer_strict_dedup.csv",
+      "sha256": "83d2ae5b52b656027f5f6fbd5a2e7bbd8e14182f42f1d3557af4b8d890375769",
+      "rows": 5762,
+      "columns": 65,
+      "chunks": 6,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.df_new_seller_best.7e57223a5f",
+      "section": "other",
+      "source_path": "EDA-Results/df_new_seller_best.csv",
+      "sha256": "7e57223a5f2481df16a08ba7b96726bb4406396f75035768aeff901f44eaa2f5",
+      "rows": 5169,
+      "columns": 65,
+      "chunks": 6,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.df_new_seller_best_thirdparty.7dfc90cfd0",
+      "section": "other",
+      "source_path": "EDA-Results/df_new_seller_best_thirdparty.csv",
+      "sha256": "7dfc90cfd0fec57f4e723ccb1ee4d827abd6a30048152af852a9e849417c25f9",
+      "rows": 5107,
+      "columns": 66,
+      "chunks": 6,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "raw_source.df_raw_typed_audit.321021bbb5",
+      "section": "raw_source",
+      "source_path": "EDA-Results/df_raw_typed_audit.csv",
+      "sha256": "321021bbb5627d443cc5c481a949a4855ea1e08cebeb5dd7f02b40dd4da963ed",
+      "rows": 9424,
+      "columns": 59,
+      "chunks": 10,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.manual_validation_delivery_shipping_sample.2a394c82c6",
+      "section": "other",
+      "source_path": "EDA-Results/manual_validation_delivery_shipping_sample.csv",
+      "sha256": "2a394c82c6cb867c117f85cccbc984a7689e1d6ed0e30d1d9a52db52fded3a8a",
+      "rows": 14,
+      "columns": 12,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.table_across_market_fba_switchers.5df25411d2",
+      "section": "other",
+      "source_path": "EDA-Results/table_across_market_fba_switchers.csv",
+      "sha256": "5df25411d2dd78e2527f2ca510fa4920d1c0fea31fcf3530dc606963d7a39095",
+      "rows": 0,
+      "columns": 3,
+      "chunks": 0,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.table_audit_checks.15ed5d5a80",
+      "section": "other",
+      "source_path": "EDA-Results/table_audit_checks.csv",
+      "sha256": "15ed5d5a80a05bc2fce9e05aa47886a16c68a46b0a8ecf8731aa450d70197839",
+      "rows": 60,
+      "columns": 4,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.table_candidate_sample_summary.1751c8f9b6",
+      "section": "other",
+      "source_path": "EDA-Results/table_candidate_sample_summary.csv",
+      "sha256": "1751c8f9b6d216ffadac04fdd9f0fd90e807b6e9c16541a9ae5cb897ab8ab01e",
+      "rows": 4,
+      "columns": 10,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.table_contact_courier_examples.6e3d1cb513",
+      "section": "other",
+      "source_path": "EDA-Results/table_contact_courier_examples.csv",
+      "sha256": "6e3d1cb513cb4eb963081f5411c30547796548c08c80c14722ba9b5e00c90c07",
+      "rows": 15,
+      "columns": 8,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.table_contact_courier_policy.6ffda025d0",
+      "section": "other",
+      "source_path": "EDA-Results/table_contact_courier_policy.csv",
+      "sha256": "6ffda025d0686eabd2b1b099e6e29242d12cac45a75a9a5cd92c41f817e4e8e8",
+      "rows": 2,
+      "columns": 3,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.table_contact_courier_summary.41cd9d71d7",
+      "section": "other",
+      "source_path": "EDA-Results/table_contact_courier_summary.csv",
+      "sha256": "41cd9d71d7f86a35a2bdfb903d102bfb3b80d408ec971c577d9adc889550d15b",
+      "rows": 6,
+      "columns": 2,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.table_convenience_audit.6fcab687c9",
+      "section": "other",
+      "source_path": "EDA-Results/table_convenience_audit.csv",
+      "sha256": "6fcab687c9d1f8bdb63bf6935e23fb640dd1b74a65bb04ee67688fd94ac7c006",
+      "rows": 30,
+      "columns": 6,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.table_convenience_takeaway.c63b576f76",
+      "section": "other",
+      "source_path": "EDA-Results/table_convenience_takeaway.csv",
+      "sha256": "c63b576f7679d986a5d468bf6e3caccc36e5239649fed44cc40d631c00a19ca8",
+      "rows": 6,
+      "columns": 7,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.table_covariate_smd.76028f4e5b",
+      "section": "other",
+      "source_path": "EDA-Results/table_covariate_smd.csv",
+      "sha256": "76028f4e5b58a9b6bcf6cf204618550f0ece246027501eb279ffd1f3e20a048a",
+      "rows": 7,
+      "columns": 4,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.table_covariate_summary_by_fba.0c3dc80fa3",
+      "section": "other",
+      "source_path": "EDA-Results/table_covariate_summary_by_fba.csv",
+      "sha256": "0c3dc80fa31672257c0201a70382d1162793042a8a068de7f40d909a5525f969",
+      "rows": 2,
+      "columns": 36,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.table_failed_delivery_markets.315466ee78",
+      "section": "other",
+      "source_path": "EDA-Results/table_failed_delivery_markets.csv",
+      "sha256": "315466ee78cc4b06c4371eb084f69772cf2110a431f338887361835e3afbb2b3",
+      "rows": 5,
+      "columns": 6,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.table_failed_market_examples.6a0ad2c310",
+      "section": "other",
+      "source_path": "EDA-Results/table_failed_market_examples.csv",
+      "sha256": "6a0ad2c310eba3a89a049264114b9a000dc79b14833648bbb150a89f3bf51071",
+      "rows": 20,
+      "columns": 10,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.table_group_size.74d8116db1",
+      "section": "other",
+      "source_path": "EDA-Results/table_group_size.csv",
+      "sha256": "74d8116db19561e334fa66d01e53e0d94e7c86da0619a5967a614df972fad999",
+      "rows": 2,
+      "columns": 2,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.table_market_delivery_audit.e0d681f878",
+      "section": "other",
+      "source_path": "EDA-Results/table_market_delivery_audit.csv",
+      "sha256": "e0d681f87863265bbd36809a37cf8eaf25f0143f2b8570fd08175306bc113f59",
+      "rows": 62,
+      "columns": 6,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.table_market_fingerprint_summary.1ca3aa97aa",
+      "section": "other",
+      "source_path": "EDA-Results/table_market_fingerprint_summary.csv",
+      "sha256": "1ca3aa97aa38220a94b550e6770c47ecaec3f29907f7a9d532d639d20ad96f57",
+      "rows": 7,
+      "columns": 3,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.table_mixed_seller_summary.a317409594",
+      "section": "other",
+      "source_path": "EDA-Results/table_mixed_seller_summary.csv",
+      "sha256": "a317409594d2f17e848ac649c0c23f24a2bb86c92b8205eaa156cb0043f5c602",
+      "rows": 2,
+      "columns": 4,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.table_ml_split_results.df5c900f24",
+      "section": "other",
+      "source_path": "EDA-Results/table_ml_split_results.csv",
+      "sha256": "df5c900f247c4a338587b7b97c434d35f882a6278c53dff0a56ae0fa310d6eaf",
+      "rows": 120,
+      "columns": 12,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.table_ml_split_summary.f840c65a11",
+      "section": "other",
+      "source_path": "EDA-Results/table_ml_split_summary.csv",
+      "sha256": "f840c65a11bda551e27d9a413086f0b1257e6dfd94b2027b42083f7778d733ef",
+      "rows": 6,
+      "columns": 10,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.table_observed_both_status_sellers.ffc200c178",
+      "section": "other",
+      "source_path": "EDA-Results/table_observed_both_status_sellers.csv",
+      "sha256": "ffc200c178cf95df283c5261f887efd7a54ae1d8dd948a2365b912306bb35d93",
+      "rows": 2,
+      "columns": 7,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.table_offer_repeat_headline.1b3473b0ec",
+      "section": "other",
+      "source_path": "EDA-Results/table_offer_repeat_headline.csv",
+      "sha256": "1b3473b0ec136360d0e5f03541828adf15111e263d9f3289efce53530c45f82d",
+      "rows": 4,
+      "columns": 2,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.table_offer_threshold_support.3b7c155b32",
+      "section": "other",
+      "source_path": "EDA-Results/table_offer_threshold_support.csv",
+      "sha256": "3b7c155b3243496b3d5c797429b243dd363561ae1c4a634479c4cd885983607e",
+      "rows": 7,
+      "columns": 5,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.table_outcome_support.d8639c66be",
+      "section": "other",
+      "source_path": "EDA-Results/table_outcome_support.csv",
+      "sha256": "d8639c66be3adf9bff939a97c588a54f5ab0fb9304f0c95341f6523651c66499",
+      "rows": 20,
+      "columns": 10,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.table_paid_zero_anomaly_breakdown.bb5be68d25",
+      "section": "other",
+      "source_path": "EDA-Results/table_paid_zero_anomaly_breakdown.csv",
+      "sha256": "bb5be68d25615add0a7184873ce5060c34e6a0a914d4f3c83f29176c616b763b",
+      "rows": 2,
+      "columns": 5,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.table_paid_zero_contact_examples.89fd400c4e",
+      "section": "other",
+      "source_path": "EDA-Results/table_paid_zero_contact_examples.csv",
+      "sha256": "89fd400c4ef622e52757657668fd30f23334d23197577c87ab09e10ae6837327",
+      "rows": 20,
+      "columns": 7,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.table_paid_zero_explicit_by_seller.b4f5d765a4",
+      "section": "other",
+      "source_path": "EDA-Results/table_paid_zero_explicit_by_seller.csv",
+      "sha256": "b4f5d765a4121b2526d686e8e172cd3f19009aa05de34d7819531f324a262e22",
+      "rows": 15,
+      "columns": 2,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.table_paid_zero_explicit_by_timestamp.3b4a4cc4dd",
+      "section": "other",
+      "source_path": "EDA-Results/table_paid_zero_explicit_by_timestamp.csv",
+      "sha256": "3b4a4cc4dd2ba28324192d8a8bd62b29e04ec2f7f5b40a3c41db0eae92504e42",
+      "rows": 6,
+      "columns": 2,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.table_paid_zero_explicit_examples.7a0c55f8fa",
+      "section": "other",
+      "source_path": "EDA-Results/table_paid_zero_explicit_examples.csv",
+      "sha256": "7a0c55f8fa15496d6c4461d99008553ca9e71fa17819474977c49a1cf4fe7885",
+      "rows": 20,
+      "columns": 7,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.table_rank_summary_by_fba.9a678c24a5",
+      "section": "other",
+      "source_path": "EDA-Results/table_rank_summary_by_fba.csv",
+      "sha256": "9a678c24a561de8e22f39ec8f3e060048e34062d4c6eb69ada6b5cf3fe429e38",
+      "rows": 2,
+      "columns": 11,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.table_rank_variation_headline.7d0486c819",
+      "section": "other",
+      "source_path": "EDA-Results/table_rank_variation_headline.csv",
+      "sha256": "7d0486c819e2ec887f55ba765b0eaf6cdbd6dd7c66a9395c51bd1825020b1ed8",
+      "rows": 8,
+      "columns": 2,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.table_repeated_seller_examples.751942597d",
+      "section": "other",
+      "source_path": "EDA-Results/table_repeated_seller_examples.csv",
+      "sha256": "751942597d64d5b33ba72bdbde011b00fc82882f9a8dbad5efedb6e9386e77c9",
+      "rows": 20,
+      "columns": 10,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.table_review_field_status.d28312ae71",
+      "section": "other",
+      "source_path": "EDA-Results/table_review_field_status.csv",
+      "sha256": "d28312ae7182f7bee47dbbf0ff5dd865498a812f1bebfc7c72e0bc3bdec7f8cc",
+      "rows": 3,
+      "columns": 8,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.table_review_problem_examples.3c85b623ee",
+      "section": "other",
+      "source_path": "EDA-Results/table_review_problem_examples.csv",
+      "sha256": "3c85b623ee8625ee0e4643e24a64432a8381268ab45cd188088c4413d49d5188",
+      "rows": 20,
+      "columns": 8,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.table_review_usability_headline.1cd8c6009b",
+      "section": "other",
+      "source_path": "EDA-Results/table_review_usability_headline.csv",
+      "sha256": "1cd8c6009bba664daec4b7b22a00ab9f8ce99c5b64964fa34e6aaaeb9af1735a",
+      "rows": 7,
+      "columns": 2,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.table_robust_vs_stored_delivery.6bd0fb064f",
+      "section": "other",
+      "source_path": "EDA-Results/table_robust_vs_stored_delivery.csv",
+      "sha256": "6bd0fb064fcac5e3a2fed4e5ab8adb66c57673896757d8799307398115ea7955",
+      "rows": 4,
+      "columns": 3,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.table_same_day_change_examples.f6dcd2d91f",
+      "section": "other",
+      "source_path": "EDA-Results/table_same_day_change_examples.csv",
+      "sha256": "f6dcd2d91feb81255a443989f9851d3a0673cbfc63dc9251cec50bc95db9d050",
+      "rows": 20,
+      "columns": 10,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.table_same_day_headline.cf9c0e5c63",
+      "section": "other",
+      "source_path": "EDA-Results/table_same_day_headline.csv",
+      "sha256": "cf9c0e5c6352f93202ab66b1f8ffc6ab04e3f9070414480e7e9670fb63054ad5",
+      "rows": 11,
+      "columns": 2,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.table_same_day_pair_table.3dcd88e19c",
+      "section": "other",
+      "source_path": "EDA-Results/table_same_day_pair_table.csv",
+      "sha256": "3dcd88e19c65f04a507cf041017ac2b61c463e8b28d9eb0079d62e0b6804a377",
+      "rows": 31,
+      "columns": 11,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.table_seller_presence_summary.ae5e24dc61",
+      "section": "other",
+      "source_path": "EDA-Results/table_seller_presence_summary.csv",
+      "sha256": "ae5e24dc61f56cd5910965ec7cac7e3137087146006c81a09e208c7257bfd746",
+      "rows": 119,
+      "columns": 7,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.table_seller_switch_headline.f4bffd8e83",
+      "section": "other",
+      "source_path": "EDA-Results/table_seller_switch_headline.csv",
+      "sha256": "f4bffd8e835867097c08f6bb9c1d21ac228c73e3cb230611473c18a8536d74a5",
+      "rows": 5,
+      "columns": 2,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.table_shipping_audit_summary.651bb6e27d",
+      "section": "other",
+      "source_path": "EDA-Results/table_shipping_audit_summary.csv",
+      "sha256": "651bb6e27df1dcc04307bf095248c1280469299fe604a1b4331b1f4955f394d0",
+      "rows": 10,
+      "columns": 2,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.table_third_party_market_size_summary.b26502b2db",
+      "section": "other",
+      "source_path": "EDA-Results/table_third_party_market_size_summary.csv",
+      "sha256": "b26502b2dbe7c7de1b4dbb896ac7a025a378e16e5760130f92ea91e1c60ec58d",
+      "rows": 1,
+      "columns": 8,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.table_top_turnover_headline.fcd6a128a9",
+      "section": "other",
+      "source_path": "EDA-Results/table_top_turnover_headline.csv",
+      "sha256": "fcd6a128a9cd73eefb05d0b81d89cff0a42e5bff85a7dd4e1e2f734b5599d5fd",
+      "rows": 5,
+      "columns": 2,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.table_unit_of_analysis_summary.b5d8b0af36",
+      "section": "other",
+      "source_path": "EDA-Results/table_unit_of_analysis_summary.csv",
+      "sha256": "b5d8b0af361de80fadb6726a39bfce38a16638bd123f42e4d6c169b2e84cd522",
+      "rows": 10,
+      "columns": 2,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.table_variable_provenance.e602faa78a",
+      "section": "other",
+      "source_path": "EDA-Results/table_variable_provenance.csv",
+      "sha256": "e602faa78a9f619b94326686d9ce1b5d2e2daf81e703910268379acda372309e",
+      "rows": 31,
+      "columns": 7,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.attenuation_decomposition_rankpct.d1e919b48b",
+      "section": "other",
+      "source_path": "Econometrics-Results/attenuation_decomposition_rankpct.csv",
+      "sha256": "d1e919b48b87bc470c5db85f348c8cdbd6678bdff212d0cb0fa1dadc529827df",
+      "rows": 3,
+      "columns": 11,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.attrition_table.467593eb3f",
+      "section": "other",
+      "source_path": "Econometrics-Results/attrition_table.csv",
+      "sha256": "467593eb3fcae7a3713143b5e6a83e7c29ca2556e14995e17d64d452e9792059",
+      "rows": 4,
+      "columns": 4,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.audit_consistency_checks.dab248baa6",
+      "section": "other",
+      "source_path": "Econometrics-Results/audit_consistency_checks.csv",
+      "sha256": "dab248baa6bd9c41bdf9df5e4de13085b58e4eab640a51f2dba021c0bfd16fa7",
+      "rows": 34,
+      "columns": 10,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.balance_hypothesis_tests_by_fba.dfe551451b",
+      "section": "other",
+      "source_path": "Econometrics-Results/balance_hypothesis_tests_by_fba.csv",
+      "sha256": "dfe551451b0cfbe53fa3b3afeaed1224804511136c37ac0230ceecc1bb938b88",
+      "rows": 10,
+      "columns": 23,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.balance_table_by_fba.7a83faf270",
+      "section": "other",
+      "source_path": "Econometrics-Results/balance_table_by_fba.csv",
+      "sha256": "7a83faf270b8fc7f1e1407e87e4a21bee2602c0ea56d1213bd60f9f770ae237b",
+      "rows": 10,
+      "columns": 6,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.binary_top10_fitted_probability_audit_rankpct.96e43a436b",
+      "section": "other",
+      "source_path": "Econometrics-Results/binary_top10_fitted_probability_audit_rankpct.csv",
+      "sha256": "96e43a436bc33c0893ff4d8f5959d7950234a57c3cb3ad66d30d3fa34d5e943a",
+      "rows": 1,
+      "columns": 20,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.binary_top10_prominence_decision_rankpct.fcbf2038ec",
+      "section": "other",
+      "source_path": "Econometrics-Results/binary_top10_prominence_decision_rankpct.csv",
+      "sha256": "fcbf2038ec6730c0164ff20ef935e813b1b29493ff3b226bc2010d45e220b911",
+      "rows": 1,
+      "columns": 20,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.binary_top10_prominence_diagnostics_rankpct.4cbe284efd",
+      "section": "other",
+      "source_path": "Econometrics-Results/binary_top10_prominence_diagnostics_rankpct.csv",
+      "sha256": "4cbe284efdeb0abf248762500b3ace314670f24ef37e8e6bc0ff02e3933c91d6",
+      "rows": 5,
+      "columns": 18,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.binary_top10_prominence_inference_rankpct.cd029e6f55",
+      "section": "other",
+      "source_path": "Econometrics-Results/binary_top10_prominence_inference_rankpct.csv",
+      "sha256": "cd029e6f55f973cb932b22a9c4ae2572eb71cc5f86f706bcc2d21f06b322358f",
+      "rows": 4,
+      "columns": 24,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.binary_top10_prominence_influence_summary_rankpct.0e37cc5dea",
+      "section": "other",
+      "source_path": "Econometrics-Results/binary_top10_prominence_influence_summary_rankpct.csv",
+      "sha256": "0e37cc5dea9dd8e9bfbedb9b902dc9908653f805976d499a112eb202ac5e6c55",
+      "rows": 2,
+      "columns": 8,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.binary_top10_prominence_leave_one_rankpct.d6d4afeee9",
+      "section": "other",
+      "source_path": "Econometrics-Results/binary_top10_prominence_leave_one_rankpct.csv",
+      "sha256": "d6d4afeee946ac5774689067c21d8cfaf057732ab47ca21a857aa44604131508",
+      "rows": 158,
+      "columns": 5,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.binary_top10_prominence_models_rankpct.b4aea3c22f",
+      "section": "other",
+      "source_path": "Econometrics-Results/binary_top10_prominence_models_rankpct.csv",
+      "sha256": "b4aea3c22f317276bcc16add272d8db1df5a6b9a636770f162cf1e685a77f3d5",
+      "rows": 3,
+      "columns": 21,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.binary_top10_prominence_permutation_rankpct.e91a4e91b2",
+      "section": "other",
+      "source_path": "Econometrics-Results/binary_top10_prominence_permutation_rankpct.csv",
+      "sha256": "e91a4e91b2ece113a51ec6773d52ca8d63248e8c64a86c933ededb61ef55b7fe",
+      "rows": 1,
+      "columns": 10,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.binary_top10_prominence_placebos_rankpct.9805359e5b",
+      "section": "other",
+      "source_path": "Econometrics-Results/binary_top10_prominence_placebos_rankpct.csv",
+      "sha256": "9805359e5b9fa805ca65fc33b06e10b0765d4dddd1654b03ec66414d0383ecd7",
+      "rows": 2,
+      "columns": 14,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.binary_top10_prominence_stockout_consistency_rankpct.9ceae9e559",
+      "section": "other",
+      "source_path": "Econometrics-Results/binary_top10_prominence_stockout_consistency_rankpct.csv",
+      "sha256": "9ceae9e559ea76246c789bd4a5dd8a4a6434f98dd02413864ef3436020dac12e",
+      "rows": 2,
+      "columns": 23,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.binary_top10_prominence_threshold_family_rankpct.a8fe632bb1",
+      "section": "other",
+      "source_path": "Econometrics-Results/binary_top10_prominence_threshold_family_rankpct.csv",
+      "sha256": "a8fe632bb198ddf6658dcc3f1247076cc86430d0518c7ecde7adbe0e2594203c",
+      "rows": 5,
+      "columns": 24,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.bounded_outcome_diagnostics_rankpct.f9581eba14",
+      "section": "other",
+      "source_path": "Econometrics-Results/bounded_outcome_diagnostics_rankpct.csv",
+      "sha256": "f9581eba14b56be4f9dfb17932ef043b7e4f73fb92c9fac4cc1b86e8355a702c",
+      "rows": 1,
+      "columns": 10,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.bounded_outcome_method_note_rankpct.51950b2704",
+      "section": "other",
+      "source_path": "Econometrics-Results/bounded_outcome_method_note_rankpct.csv",
+      "sha256": "51950b2704ca5e4a8811a3ad59a7f06aa785e4f3d4c90fd3327d6ea1990439e5",
+      "rows": 1,
+      "columns": 3,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.chen_tsai_benchmark_mapping.23e21a99c7",
+      "section": "other",
+      "source_path": "Econometrics-Results/chen_tsai_benchmark_mapping.csv",
+      "sha256": "23e21a99c7817c20bd79e37a2348f5ab449301c533fc8a1b8b4bbbdb0944234a",
+      "rows": 12,
+      "columns": 4,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.cluster_sensitivity_rankpct.18b6da4d8b",
+      "section": "other",
+      "source_path": "Econometrics-Results/cluster_sensitivity_rankpct.csv",
+      "sha256": "18b6da4d8bd8a97049414952dd15860906b18eb0a0eabff12861b585cea04b92",
+      "rows": 3,
+      "columns": 18,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.common_support_balance_total_price_rankpct.87f3bb1687",
+      "section": "other",
+      "source_path": "Econometrics-Results/common_support_balance_total_price_rankpct.csv",
+      "sha256": "87f3bb16877fbf1a15cd70782e5e96a3814518d27d1f4f898e835432f35516d1",
+      "rows": 6,
+      "columns": 7,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.common_support_nonfba_survivor_profile_rankpct.362b046b95",
+      "section": "other",
+      "source_path": "Econometrics-Results/common_support_nonfba_survivor_profile_rankpct.csv",
+      "sha256": "362b046b958280e4793d9704d3d1055900134b939802613558ed3506d9f9c5c8",
+      "rows": 1,
+      "columns": 5,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.common_support_residual_gap_rankpct.cf0b40b8be",
+      "section": "other",
+      "source_path": "Econometrics-Results/common_support_residual_gap_rankpct.csv",
+      "sha256": "cf0b40b8be36bfc9e89749b59ba23699fe48ccdbba55a1c84bb1f388c2a06cc1",
+      "rows": 2,
+      "columns": 9,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.cr2_cluster_correction_rankpct.001a7ce559",
+      "section": "other",
+      "source_path": "Econometrics-Results/cr2_cluster_correction_rankpct.csv",
+      "sha256": "001a7ce55970341162a923ba2aab80d7ab5a9460c54496a6974ae530367567df",
+      "rows": 1,
+      "columns": 18,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.delivery_support_rankpct.7bb2d7d51f",
+      "section": "other",
+      "source_path": "Econometrics-Results/delivery_support_rankpct.csv",
+      "sha256": "7bb2d7d51f35e41bd75adf62520e3697fa239525c7e617f159b9c158dd0533c2",
+      "rows": 5,
+      "columns": 12,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.delivery_tail_sensitivity_rankpct.eff2123358",
+      "section": "other",
+      "source_path": "Econometrics-Results/delivery_tail_sensitivity_rankpct.csv",
+      "sha256": "eff2123358c7da45d4842b7406dc6116426a102a28e4e0f55b5e3e8865d4675b",
+      "rows": 3,
+      "columns": 21,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_above_below_decomposition_main_rankpct.6c8576f8fb",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_above_below_decomposition_main_rankpct.csv",
+      "sha256": "6c8576f8fbb0f510a1cdb47a34304e4d2f7d576a591e41c540c138b62f298dde",
+      "rows": 2,
+      "columns": 15,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_above_below_decomposition_rankpct.eca8788e1a",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_above_below_decomposition_rankpct.csv",
+      "sha256": "eca8788e1a2eea094c1f6ff6cb3fe8404187650bafedf5299a45987b733abd80",
+      "rows": 3,
+      "columns": 15,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_above_below_joint_diagnostic_rankpct.afc0200478",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_above_below_joint_diagnostic_rankpct.csv",
+      "sha256": "afc0200478a89ffe358f3839ac083321924c004c2f801fff39014d132b81ef68",
+      "rows": 1,
+      "columns": 15,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_churn_decomposition_rankpct.7cd873cb0b",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_churn_decomposition_rankpct.csv",
+      "sha256": "7cd873cb0b9146617c5b7991729de69e18be45f36812fec53a0d0251aec81b55",
+      "rows": 10,
+      "columns": 14,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_churn_decomposition_summary_rankpct.b6549df1c8",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_churn_decomposition_summary_rankpct.csv",
+      "sha256": "b6549df1c82dbff8982583667ec72fb559ea0b57d9715c70c29ab77f05c8fe7a",
+      "rows": 1,
+      "columns": 9,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_churn_direction_correlation_rankpct.b6d097e74f",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_churn_direction_correlation_rankpct.csv",
+      "sha256": "b6d097e74f4220d8609f1c13ee8e03d9ddf54dedca9de4e89e92d352d4211938",
+      "rows": 1,
+      "columns": 7,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_clean_turnover_restrictions_rankpct.80dfe1caf8",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_clean_turnover_restrictions_rankpct.csv",
+      "sha256": "80dfe1caf8a522468e5cd34c0a6a47314bfd8bf05c93c3004b52c3736e057eeb",
+      "rows": 4,
+      "columns": 24,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_consecutive_transition_variation_rankpct.88eb9416d6",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_consecutive_transition_variation_rankpct.csv",
+      "sha256": "88eb9416d69fb6fcee162d4a5ba4257db9296e5f702d6f3a6a08881a614bbba4",
+      "rows": 12,
+      "columns": 6,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_conservative_inference_rankpct.b408b7070d",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_conservative_inference_rankpct.csv",
+      "sha256": "b408b7070d0f3db05c83bad841b59f6a0806e9c02a17243f093aaaf8f41472bc",
+      "rows": 4,
+      "columns": 15,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_continuous_heterogeneity_rankpct.8991020cac",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_continuous_heterogeneity_rankpct.csv",
+      "sha256": "8991020cacaf2ec4eab56804174b7800fa01f10510acfe0eaeca255f7889a1f7",
+      "rows": 3,
+      "columns": 9,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_continuous_marginal_effects_rankpct.5b461126a8",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_continuous_marginal_effects_rankpct.csv",
+      "sha256": "5b461126a850f72a188a6bb0a818a96a86df5f5704a18a4256d80599ad27e6ef",
+      "rows": 5,
+      "columns": 8,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_cr2_inference_rankpct.714f2e83f4",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_cr2_inference_rankpct.csv",
+      "sha256": "714f2e83f4b988bd4311a421f63d099d296665a16c9579042c028568bb798280",
+      "rows": 2,
+      "columns": 25,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_decision_quantities_rankpct.d8352ccd49",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_decision_quantities_rankpct.csv",
+      "sha256": "d8352ccd4908ebe59c15c607587e13c0a874ae7d031eed0bb63d312086bf8858",
+      "rows": 1,
+      "columns": 42,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_decision_scorecard_rankpct.4bc503befe",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_decision_scorecard_rankpct.csv",
+      "sha256": "4bc503befe5de732ea28a7cfefbb979140b5aa24c5f629a13960caa93ef4e53d",
+      "rows": 8,
+      "columns": 3,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_directional_decomposition_decision_rankpct.954b459dfe",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_directional_decomposition_decision_rankpct.csv",
+      "sha256": "954b459dfe3ee2c4ac96d23b76871ff313822606a004748f20ed5867f334c356",
+      "rows": 1,
+      "columns": 10,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_directional_reference_cr2_reference_rankpct.2884c3351b",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_directional_reference_cr2_reference_rankpct.csv",
+      "sha256": "2884c3351bd175c92ef26d6fae6b6ae1fe7e0e2df15b2ad797249f650e1dbda3",
+      "rows": 2,
+      "columns": 9,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_directional_reference_wcb_reference_rankpct.f8ccd5e422",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_directional_reference_wcb_reference_rankpct.csv",
+      "sha256": "f8ccd5e42261deaa15154fd6e76a5cae819535d7266d59070ef17dc981445199",
+      "rows": 1,
+      "columns": 16,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_distance_banded_turnover_rankpct.63427b4937",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_distance_banded_turnover_rankpct.csv",
+      "sha256": "63427b49375d536f7d1c62da65cb5faea656ac4f0e7621184a3b37bc53daf60e",
+      "rows": 8,
+      "columns": 24,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_dropout_composition_rankpct.1a01430e88",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_dropout_composition_rankpct.csv",
+      "sha256": "1a01430e88db62b333b44712d0e9901270d8d3da22affb5487d483a3c4850686",
+      "rows": 2,
+      "columns": 10,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_dropout_event_table_rankpct.48a48ea0d6",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_dropout_event_table_rankpct.csv",
+      "sha256": "48a48ea0d6e75b8f19d49fb6150c13e1f945518c904314e69690a73d250837e4",
+      "rows": 60,
+      "columns": 31,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_dropout_process_rankpct.c0f946a962",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_dropout_process_rankpct.csv",
+      "sha256": "c0f946a9629b0fe0638f801ce65e306804a65a925e59f6eb7de457c28d3c9212",
+      "rows": 7,
+      "columns": 5,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_dropout_process_summary_rankpct.f00e0c05af",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_dropout_process_summary_rankpct.csv",
+      "sha256": "f00e0c05afc035a410c5cb62d72be9e9dee7485f92fc173853e3e10115f68ec4",
+      "rows": 1,
+      "columns": 5,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_dropout_rank_quartile_summary_rankpct.4d9295ee47",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_dropout_rank_quartile_summary_rankpct.csv",
+      "sha256": "4d9295ee47aee216778b83b1d2ec98551d501f501f9b8b8cab40ea10cdeecd99",
+      "rows": 4,
+      "columns": 13,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_economic_salience_rankpct.fd2041d854",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_economic_salience_rankpct.csv",
+      "sha256": "fd2041d85493c160d3f18d102ca5b93e63ac64d04bcafc2d6ab8ba891180283f",
+      "rows": 3,
+      "columns": 18,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_fba_premium_inference_rankpct.655e26fbdb",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_fba_premium_inference_rankpct.csv",
+      "sha256": "655e26fbdb5c033e9cee752069503bb85abd71c5a9bc51d11559082b57deea15",
+      "rows": 4,
+      "columns": 22,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_fba_premium_summary_rankpct.1980dcf86b",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_fba_premium_summary_rankpct.csv",
+      "sha256": "1980dcf86b8dd614fedb1ddd18963b70ec569052fa2ffe31baa4683e0e917688",
+      "rows": 7,
+      "columns": 14,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_hardening_summary_rankpct.4b21ba1dc9",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_hardening_summary_rankpct.csv",
+      "sha256": "4b21ba1dc992db6787acde15ecc23809237ad62319d48543b9f37269f8eafc12",
+      "rows": 15,
+      "columns": 10,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_mde_subgroup_audit_rankpct.2eedcac323",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_mde_subgroup_audit_rankpct.csv",
+      "sha256": "2eedcac323ab80328942f22947f4ad2aa4239a26149c9a83a132885d63856b07",
+      "rows": 9,
+      "columns": 19,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_mde_summary_rankpct.9a9e6987d1",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_mde_summary_rankpct.csv",
+      "sha256": "9a9e6987d104b27f6617aaeaa29a8eb2e70ebda5a3ddf8e835eb92c1303a3413",
+      "rows": 1,
+      "columns": 19,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_mechanism_validation_summary_rankpct.44547bbb22",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_mechanism_validation_summary_rankpct.csv",
+      "sha256": "44547bbb2235294ca7a576f0edf133f6f9454452afcc4fade96c486fe001ac12",
+      "rows": 17,
+      "columns": 9,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_partial_identification_bounds_rankpct.ae8cd1fcea",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_partial_identification_bounds_rankpct.csv",
+      "sha256": "ae8cd1fceaa33bacdad8dc22a40af4f2c73ad635c1125c94cde1659e26fc535b",
+      "rows": 2,
+      "columns": 10,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_permutation_placebo_turnover_rankpct.5331aabd87",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_permutation_placebo_turnover_rankpct.csv",
+      "sha256": "5331aabd8767df1e6cb63ee4db7e8db0a2152369ce1985d9727505d2304665c1",
+      "rows": 1,
+      "columns": 9,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_pre_disappearance_smoothness_decision_rankpct.3401e30b4f",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_pre_disappearance_smoothness_decision_rankpct.csv",
+      "sha256": "3401e30b4f662d9fb763cd804de36936d3b997b8d3aa75c37b3d02cf3484e6cf",
+      "rows": 1,
+      "columns": 5,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_pre_disappearance_smoothness_rankpct.87144b8b1a",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_pre_disappearance_smoothness_rankpct.csv",
+      "sha256": "87144b8b1abf83791165615c1299ae923db5cc5b67b6f340b609641f8212400d",
+      "rows": 9,
+      "columns": 12,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_rank_tier_stress_diagnostics_rankpct.ae8c3f0e41",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_rank_tier_stress_diagnostics_rankpct.csv",
+      "sha256": "ae8c3f0e41186a8dd54edae96bb2974f1efd32b1f039c70acbb1247ca3ddbd97",
+      "rows": 4,
+      "columns": 13,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_residual_lag_diagnostic_rankpct.b14a0d3235",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_residual_lag_diagnostic_rankpct.csv",
+      "sha256": "b14a0d32353a4da3dcb8fd11d5dd72f2523bece40524c1c22458a651a04e4273",
+      "rows": 1,
+      "columns": 12,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_return_pattern_rankpct.8af9bc51f1",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_return_pattern_rankpct.csv",
+      "sha256": "8af9bc51f1e46cffc1ab7a5af42ec93795f60f29c5c8207ed3dd3c3ce0da8aac",
+      "rows": 4,
+      "columns": 3,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_return_pattern_summary_rankpct.ef37e583f0",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_return_pattern_summary_rankpct.csv",
+      "sha256": "ef37e583f0c403e287646aa6e4adcb63124ef3473900fbc74ca71ef79d16e470",
+      "rows": 1,
+      "columns": 4,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_starting_rank_adjustment_diagnostics_rankpct.f1c390b43b",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_starting_rank_adjustment_diagnostics_rankpct.csv",
+      "sha256": "f1c390b43b771bde2611df948bda9b8a1bc35d76a035d9a8f0e9d2d609e21219",
+      "rows": 4,
+      "columns": 13,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_starting_rank_quartile_support_rankpct.211b4e3bea",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_starting_rank_quartile_support_rankpct.csv",
+      "sha256": "211b4e3bea96478dacf961a2d4077bebb61e79721a2603b576ff6807608f894d",
+      "rows": 4,
+      "columns": 11,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_stockout_consistency_decision_rankpct.e656259fbc",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_stockout_consistency_decision_rankpct.csv",
+      "sha256": "e656259fbcf0aa8284bdf73444efe8d6ddf2887fb5d0ea1e975501796aceb8a9",
+      "rows": 1,
+      "columns": 10,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_stockout_consistency_definitions_rankpct.97d6425a1a",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_stockout_consistency_definitions_rankpct.csv",
+      "sha256": "97d6425a1adfc3bcc1b62b04d9ff0231b82fae264caab966f8bfee6057751d92",
+      "rows": 2,
+      "columns": 5,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_stockout_consistency_summary_rankpct.beb4453583",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_stockout_consistency_summary_rankpct.csv",
+      "sha256": "beb44535838c1564220504f263338554f318182187ffb959116b6486c329fc97",
+      "rows": 4,
+      "columns": 7,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_stockout_consistent_turnover_rankpct.bf6df1b5ff",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_stockout_consistent_turnover_rankpct.csv",
+      "sha256": "bf6df1b5ff4ba4a4e46586794eabdad34f11f0af491b161b9931899c11c401cb",
+      "rows": 6,
+      "columns": 17,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_turnover_placebo_decision_rankpct.5c187c50c6",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_turnover_placebo_decision_rankpct.csv",
+      "sha256": "5c187c50c6c389a0e7c19ca4e41f4974ac1a7cbbc282314c3aabd6a68c71e3bd",
+      "rows": 1,
+      "columns": 7,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_turnover_placebos_rankpct.1713c755ff",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_turnover_placebos_rankpct.csv",
+      "sha256": "1713c755ffe90394fca17354bf79d1017b9632bc25a04d1c070cc80155a828d0",
+      "rows": 2,
+      "columns": 14,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_vacancy_descriptive_rankpct.b17f54719f",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_vacancy_descriptive_rankpct.csv",
+      "sha256": "b17f54719fc5907eb080cd3ed30cdcf10753845fb5980f9589e8f52535268e3e",
+      "rows": 4,
+      "columns": 10,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_vacancy_design_summary_rankpct.9f3e140c00",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_vacancy_design_summary_rankpct.csv",
+      "sha256": "9f3e140c00edffa7635c80ce8e1c020ff40bc4300819c1d08375ed8008a4fd40",
+      "rows": 1,
+      "columns": 12,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_vacancy_effect_translation_rankpct.ce0329ab4a",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_vacancy_effect_translation_rankpct.csv",
+      "sha256": "ce0329ab4a00e8af7cc056b2dc80e66af454bfd6fcf4e7fc0be1f87fa0c9f446",
+      "rows": 2,
+      "columns": 3,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_vacancy_exposure_distribution_rankpct.642ebb6db5",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_vacancy_exposure_distribution_rankpct.csv",
+      "sha256": "642ebb6db5a50227ddf00a1098a4ace7cc5425eb9fba7202d33e6d2547198716",
+      "rows": 6,
+      "columns": 3,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_vacancy_identification_logic_rankpct.3aac103aaa",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_vacancy_identification_logic_rankpct.csv",
+      "sha256": "3aac103aaae4c90f3b3a42714eac4ea92086214b6e26c06c3591c6316c0a93ac",
+      "rows": 4,
+      "columns": 3,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_vacancy_interpretation_rankpct.f5c61c7acd",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_vacancy_interpretation_rankpct.csv",
+      "sha256": "f5c61c7acddaa4daf9f0d57c1973f9e3de20d3eb4cae08e3efa1d49eb6dba329",
+      "rows": 5,
+      "columns": 2,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_vacancy_models_rankpct.fdc7136ab9",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_vacancy_models_rankpct.csv",
+      "sha256": "fdc7136ab919daeb773ffe57012d9232969441abef14613bb9052b82adeec8fd",
+      "rows": 8,
+      "columns": 34,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_vacancy_rank_tier_models_rankpct.2d6e57b978",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_vacancy_rank_tier_models_rankpct.csv",
+      "sha256": "2d6e57b978fb0272fc44f2d55df9071906a691a159f1c547d9cc2e80578ef0d3",
+      "rows": 24,
+      "columns": 49,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_vacancy_rank_tier_summary_rankpct.52d4a29a83",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_vacancy_rank_tier_summary_rankpct.csv",
+      "sha256": "52d4a29a836e88eefe448185348ce0354540060d23377239fbf654ffb12bd1d3",
+      "rows": 3,
+      "columns": 21,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_vacancy_transition_diagnostics_rankpct.c742df7288",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_vacancy_transition_diagnostics_rankpct.csv",
+      "sha256": "c742df7288534f5e904682d084ed334118197c789d78183393a6b147d35a68cd",
+      "rows": 1,
+      "columns": 8,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_vacancy_transition_summary_rankpct.d609adfdc9",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_vacancy_transition_summary_rankpct.csv",
+      "sha256": "d609adfdc911cf8d3856f78b5fbecb0fd0eb7d888eee419b274dd318a2a8c7ed",
+      "rows": 61,
+      "columns": 8,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_wild_cluster_bootstrap_rankpct.1e467eb0ec",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_wild_cluster_bootstrap_rankpct.csv",
+      "sha256": "1e467eb0ecd4a1842aaa63b1388f409b143069b2c68890342061c874ae68ac6e",
+      "rows": 1,
+      "columns": 27,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_within_seller_sample_summary_rankpct.15b77a9aa1",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_within_seller_sample_summary_rankpct.csv",
+      "sha256": "15b77a9aa1938d7e588c126cd2266caa5176e5cf1f1cd9cb0684d9ca20b41c0a",
+      "rows": 1,
+      "columns": 6,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_within_seller_variation_rankpct.d5c87edbb6",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_within_seller_variation_rankpct.csv",
+      "sha256": "d5c87edbb68574afa91c16f666624473b53567298c3145ce623e03595ede4f97",
+      "rows": 12,
+      "columns": 6,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.dynamic_wooldridge_style_residual_test_rankpct.7323af8fa9",
+      "section": "other",
+      "source_path": "Econometrics-Results/dynamic_wooldridge_style_residual_test_rankpct.csv",
+      "sha256": "7323af8fa909ddd63ade0037ce2a137b370bfbe18c9c135a1ce9f4ad53266c0e",
+      "rows": 1,
+      "columns": 12,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.econometrics_audit_checks.d407daee1f",
+      "section": "other",
+      "source_path": "Econometrics-Results/econometrics_audit_checks.csv",
+      "sha256": "d407daee1fb50c6be3bde9d6702d59ec5e70b6d63f9e98eb007edac561d47716",
+      "rows": 37,
+      "columns": 4,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.econometrics_audit_reconciliation.a094c5a6c7",
+      "section": "other",
+      "source_path": "Econometrics-Results/econometrics_audit_reconciliation.csv",
+      "sha256": "a094c5a6c7c9812515cd122665f59e7107ea554f2ea9fde24b7fc9f4048077a8",
+      "rows": 12,
+      "columns": 4,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.econometrics_table_manifest.126ebfdb02",
+      "section": "other",
+      "source_path": "Econometrics-Results/econometrics_table_manifest.csv",
+      "sha256": "126ebfdb0244e7fed1ec4108f4b32cab466174c1cb1a1f34ce3f5cf523aa90ab",
+      "rows": 159,
+      "columns": 4,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.effect_translation_rankpct.506a2f8178",
+      "section": "other",
+      "source_path": "Econometrics-Results/effect_translation_rankpct.csv",
+      "sha256": "506a2f817809b58a662f63a8dad9181324739a0cfb70513861f8abd2c7c985ac",
+      "rows": 2,
+      "columns": 3,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.evidence_to_claim_summary.4c78772033",
+      "section": "other",
+      "source_path": "Econometrics-Results/evidence_to_claim_summary.csv",
+      "sha256": "4c78772033c6a524a5d070b7cfc0aeb73d7ee6b009277a25cfad0f5bf24e6449",
+      "rows": 21,
+      "columns": 6,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.excluded_interactions_rankpct.b98e35191e",
+      "section": "other",
+      "source_path": "Econometrics-Results/excluded_interactions_rankpct.csv",
+      "sha256": "b98e35191e098166a3323cb636df8c320fbe6e05dc3d3efe3df2bac0080f6438",
+      "rows": 1,
+      "columns": 2,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.extended_control_sensitivity_rankpct.05a21ce7e0",
+      "section": "other",
+      "source_path": "Econometrics-Results/extended_control_sensitivity_rankpct.csv",
+      "sha256": "05a21ce7e0a427b51dc5dc7ffd44a4705a5d1e945190e69e7cdfd5f82c76bbca",
+      "rows": 5,
+      "columns": 21,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.fast_delivery_imputation_audit.dde2e5e770",
+      "section": "other",
+      "source_path": "Econometrics-Results/fast_delivery_imputation_audit.csv",
+      "sha256": "dde2e5e77074231f0ed42cbf3edb9533214fc95e39d3c272763e746365dd5244",
+      "rows": 2,
+      "columns": 11,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.fast_delivery_premium_benchmark.9e4b7cb9be",
+      "section": "other",
+      "source_path": "Econometrics-Results/fast_delivery_premium_benchmark.csv",
+      "sha256": "9e4b7cb9beb0cfee1fc1ac9dd6bce607ce02a48b88289351604bb267a6fb1a42",
+      "rows": 3,
+      "columns": 5,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.fast_delivery_premium_sensitivity_rankpct.eb85e09c1a",
+      "section": "other",
+      "source_path": "Econometrics-Results/fast_delivery_premium_sensitivity_rankpct.csv",
+      "sha256": "eb85e09c1ace87f050b86e61ad3b984860d7d9bd378c6ff25c34da2889e526c0",
+      "rows": 3,
+      "columns": 27,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.feature_block_wald_tests_rankpct.fd087b0ba9",
+      "section": "other",
+      "source_path": "Econometrics-Results/feature_block_wald_tests_rankpct.csv",
+      "sha256": "fd087b0ba9d7c9951cc90c06ca2980934edb8365f8fd649673bb2d1480bef265",
+      "rows": 3,
+      "columns": 12,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.feature_correlation_market_demeaned_rankpct.a20cb6e4f6",
+      "section": "other",
+      "source_path": "Econometrics-Results/feature_correlation_market_demeaned_rankpct.csv",
+      "sha256": "a20cb6e4f6760edbe8760f0c85c63be4718f3f472fb5238c3430a893c32baaaf",
+      "rows": 8,
+      "columns": 10,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.feature_vif_market_demeaned_rankpct.d70b2bec4c",
+      "section": "other",
+      "source_path": "Econometrics-Results/feature_vif_market_demeaned_rankpct.csv",
+      "sha256": "d70b2bec4cad6f7076c460eaa671eb584e9d3fbad824b8763430c934dcb880ff",
+      "rows": 8,
+      "columns": 3,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.figure_manifest.9f7d36c55b",
+      "section": "other",
+      "source_path": "Econometrics-Results/figure_manifest.csv",
+      "sha256": "9f7d36c55bca3fe8914d19bd8ea5bd9c5ff79cbbb6698092ef0c627581f09c90",
+      "rows": 6,
+      "columns": 5,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.final_sample_preview.7f2621bcd8",
+      "section": "other",
+      "source_path": "Econometrics-Results/final_sample_preview.csv",
+      "sha256": "7f2621bcd8690075edd6a3b7a49f84ea59d7dc52226f1c83c92dd37ccd8950e0",
+      "rows": 10,
+      "columns": 28,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.fractional_logit_ape_rankpct.a6bb74fdb3",
+      "section": "other",
+      "source_path": "Econometrics-Results/fractional_logit_ape_rankpct.csv",
+      "sha256": "a6bb74fdb3a257ad12574c5de328a6838778f8c056ff2b381a61d35521bdee50",
+      "rows": 1,
+      "columns": 16,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.fractional_logit_rankpct.1f9073a2e1",
+      "section": "other",
+      "source_path": "Econometrics-Results/fractional_logit_rankpct.csv",
+      "sha256": "1f9073a2e1c3d09e7734168c721464623386dc6c4a82d3c8a05a83b9651b68ad",
+      "rows": 1,
+      "columns": 19,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.functional_form_diagnostics_rankpct.ce3128fd46",
+      "section": "other",
+      "source_path": "Econometrics-Results/functional_form_diagnostics_rankpct.csv",
+      "sha256": "ce3128fd4662801fea18985f09a6e9f9373d7a4d118f7231be89f8772b3fb5e8",
+      "rows": 3,
+      "columns": 7,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.functional_form_fragility_summary_rankpct.35bb000b14",
+      "section": "other",
+      "source_path": "Econometrics-Results/functional_form_fragility_summary_rankpct.csv",
+      "sha256": "35bb000b14771a333a2cb696452b0c2d85bff5c3f3e93480ac3e3c7e21a37732",
+      "rows": 3,
+      "columns": 9,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.identification_diagnostics.9b2e4d620b",
+      "section": "other",
+      "source_path": "Econometrics-Results/identification_diagnostics.csv",
+      "sha256": "9b2e4d620b5648338c0c161cb37f47c29c5aaf029478b0d816d82c908dc3e465",
+      "rows": 11,
+      "columns": 2,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.influence_trimmed_rankpct.ae7383f28e",
+      "section": "other",
+      "source_path": "Econometrics-Results/influence_trimmed_rankpct.csv",
+      "sha256": "ae7383f28eba85c11a8a3d18ca34f7372f52b49a0fa78bb524f5db9d3baf4dcb",
+      "rows": 1,
+      "columns": 21,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.interaction_interpretation_rankpct.7ab8a24e05",
+      "section": "other",
+      "source_path": "Econometrics-Results/interaction_interpretation_rankpct.csv",
+      "sha256": "7ab8a24e056734d208edf4e7d9504b18762de70a774005d7fc30375936f4f680",
+      "rows": 4,
+      "columns": 2,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.interaction_margins_rankpct.8183d5de91",
+      "section": "other",
+      "source_path": "Econometrics-Results/interaction_margins_rankpct.csv",
+      "sha256": "8183d5de917e87f7df35b124a7122d1bec5e2a1d66e528f88aacbd7b7f807f84",
+      "rows": 12,
+      "columns": 19,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.interaction_support_rankpct.fc23aa008f",
+      "section": "other",
+      "source_path": "Econometrics-Results/interaction_support_rankpct.csv",
+      "sha256": "fc23aa008f0a5f9be63d9d785b8f0ff6e4049509d5457c36d4254fc7f0f9fb43",
+      "rows": 4,
+      "columns": 9,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.interaction_terms_rankpct.17c4f40bbe",
+      "section": "other",
+      "source_path": "Econometrics-Results/interaction_terms_rankpct.csv",
+      "sha256": "17c4f40bbea064f7b08254c90e3e4f6fdc8cd1bddeadf411432950757583f095",
+      "rows": 8,
+      "columns": 27,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.interpretation_table.e3f18c9076",
+      "section": "other",
+      "source_path": "Econometrics-Results/interpretation_table.csv",
+      "sha256": "e3f18c907694f5dde273bda2a01f2c9507efc1d7d42708070a70391d9ebb839e",
+      "rows": 18,
+      "columns": 2,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.leave_one_cluster_influence_detail_rankpct.3652e58768",
+      "section": "other",
+      "source_path": "Econometrics-Results/leave_one_cluster_influence_detail_rankpct.csv",
+      "sha256": "3652e58768c1f528542e0dd9bd2c8eb00e00a6a9afe4a66e46d03562895183e5",
+      "rows": 181,
+      "columns": 11,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.leave_one_cluster_influence_rankpct.1c7e555049",
+      "section": "other",
+      "source_path": "Econometrics-Results/leave_one_cluster_influence_rankpct.csv",
+      "sha256": "1c7e555049ab2ca421ed401c303f0ee9fd071fefffd62862ef9b64c93364ec19",
+      "rows": 2,
+      "columns": 11,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.logistics_value_adjusted_price_audit_rankpct.7556bff2c2",
+      "section": "other",
+      "source_path": "Econometrics-Results/logistics_value_adjusted_price_audit_rankpct.csv",
+      "sha256": "7556bff2c2293fb3392e2c844db1fe9d5b13f2c3fa87b0989b5608fb1bd63b1a",
+      "rows": 6,
+      "columns": 9,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.logistics_value_adjusted_price_design_rank_check_rankpct.e7d73c6111",
+      "section": "other",
+      "source_path": "Econometrics-Results/logistics_value_adjusted_price_design_rank_check_rankpct.csv",
+      "sha256": "e7d73c611189af3c1d68a29fb6ae82bb9a1953c26f6baceaae030fe53b67fdc6",
+      "rows": 3,
+      "columns": 6,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.logistics_value_adjusted_price_results_rankpct.8bc0743fba",
+      "section": "other",
+      "source_path": "Econometrics-Results/logistics_value_adjusted_price_results_rankpct.csv",
+      "sha256": "8bc0743fbaf7199fc26a577a13648f220eba4c134514aba56fa0a8059e4c8aee",
+      "rows": 3,
+      "columns": 22,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.logistics_value_adjusted_price_summary_rankpct.09d23058e5",
+      "section": "other",
+      "source_path": "Econometrics-Results/logistics_value_adjusted_price_summary_rankpct.csv",
+      "sha256": "09d23058e586686cc96733aa7be7c10d7f87c978bcf937035c607bceba40284a",
+      "rows": 3,
+      "columns": 13,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.main_results_market_fe_rankpct.53cd319e04",
+      "section": "other",
+      "source_path": "Econometrics-Results/main_results_market_fe_rankpct.csv",
+      "sha256": "53cd319e043959cec7d00c74d1944d90aa42927ba041c3834ea752cfb7b124fc",
+      "rows": 4,
+      "columns": 18,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.market_equal_weighted_rankpct.5dc3d7d61f",
+      "section": "other",
+      "source_path": "Econometrics-Results/market_equal_weighted_rankpct.csv",
+      "sha256": "5dc3d7d61f4e0d4e46709bd51e36d7ac3ba1852909912ffe4a323f6a27a039d5",
+      "rows": 1,
+      "columns": 18,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.market_overlap_summary.b7ba52d1fe",
+      "section": "other",
+      "source_path": "Econometrics-Results/market_overlap_summary.csv",
+      "sha256": "b7ba52d1fe03b87c61807970412d254f1279a417cc0667bddf986ad8bace86ce",
+      "rows": 1,
+      "columns": 6,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.missingness_summary.48a31f3c1c",
+      "section": "other",
+      "source_path": "Econometrics-Results/missingness_summary.csv",
+      "sha256": "48a31f3c1c1cb4b558fd2ed5da9700047f1bed13c6418ed18ab976fa676ba16b",
+      "rows": 26,
+      "columns": 5,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.mundlak_rankpct.811bd027c2",
+      "section": "other",
+      "source_path": "Econometrics-Results/mundlak_rankpct.csv",
+      "sha256": "811bd027c22ea5090c6119c1e9b6ad59c5b7f618733cc19b59c0e3281a7a2a24",
+      "rows": 1,
+      "columns": 18,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.numerical_pathology_summary.ec8ae2c2b8",
+      "section": "other",
+      "source_path": "Econometrics-Results/numerical_pathology_summary.csv",
+      "sha256": "ec8ae2c2b81cde221772e68e4eb121a8124ab51566b3d63ef8602d9c90207cb5",
+      "rows": 14,
+      "columns": 21,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.observation_influence_summary_rankpct.4ff3668a01",
+      "section": "other",
+      "source_path": "Econometrics-Results/observation_influence_summary_rankpct.csv",
+      "sha256": "4ff3668a011663c8cce2b2905bae4136e981407050d9c50a7c3e18bc5b74dae4",
+      "rows": 1,
+      "columns": 9,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.omitted_variable_sensitivity_rankpct.07539704bb",
+      "section": "other",
+      "source_path": "Econometrics-Results/omitted_variable_sensitivity_rankpct.csv",
+      "sha256": "07539704bb8c6b25c0ddc10e276b4a85945977abf652975cdf3be49457ef28eb",
+      "rows": 1,
+      "columns": 7,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.overlap_balance_summary_rankpct.c91ac6ab23",
+      "section": "other",
+      "source_path": "Econometrics-Results/overlap_balance_summary_rankpct.csv",
+      "sha256": "c91ac6ab236cdb2697146320a6416b4b9b5f76123d8e4a3fd87bbf51a972a39f",
+      "rows": 32,
+      "columns": 15,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.overlap_balance_tests_rankpct.f43e32edc8",
+      "section": "other",
+      "source_path": "Econometrics-Results/overlap_balance_tests_rankpct.csv",
+      "sha256": "f43e32edc852eca34f4ed67d45a784f2b29d09dc1bd1982748cf76c58eca9e99",
+      "rows": 256,
+      "columns": 37,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.overlap_design_decision_rankpct.5f3f4ba096",
+      "section": "other",
+      "source_path": "Econometrics-Results/overlap_design_decision_rankpct.csv",
+      "sha256": "5f3f4ba09676d8977c374fce9f948c0149f95c385054ecd5fc9f77f09d3ea509",
+      "rows": 32,
+      "columns": 16,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.overlap_design_status_summary_rankpct.78144161a3",
+      "section": "other",
+      "source_path": "Econometrics-Results/overlap_design_status_summary_rankpct.csv",
+      "sha256": "78144161a3f8d8c94096f5f8c79039241ca8f48d8ae5b03a9a6b3f1afae98dfc",
+      "rows": 2,
+      "columns": 5,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.overlap_trimmed_estimates_rankpct.845f32663d",
+      "section": "other",
+      "source_path": "Econometrics-Results/overlap_trimmed_estimates_rankpct.csv",
+      "sha256": "845f32663d07a2b2d931fef1640c43200b2ba1c1a3c8547134edbcb3b4fd0672",
+      "rows": 32,
+      "columns": 28,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.price_measure_ols_comparison_rankpct.b43c297549",
+      "section": "other",
+      "source_path": "Econometrics-Results/price_measure_ols_comparison_rankpct.csv",
+      "sha256": "b43c297549e4c160e8fb112edeec29fa616155af1a8aa944744013cc10fae02e",
+      "rows": 8,
+      "columns": 25,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.price_order_audit_rankpct.15eff5ad93",
+      "section": "other",
+      "source_path": "Econometrics-Results/price_order_audit_rankpct.csv",
+      "sha256": "15eff5ad935008aa36601c8285dd82c9dd11eeed6f17b3d75230f622686f64b7",
+      "rows": 11,
+      "columns": 3,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.price_order_audit_trace_rankpct.6aea36b376",
+      "section": "other",
+      "source_path": "Econometrics-Results/price_order_audit_trace_rankpct.csv",
+      "sha256": "6aea36b3762f205d7059b8ff5876fff6cc1f4bace6d9a384e192ba791174cf7c",
+      "rows": 6,
+      "columns": 3,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.price_threshold_support.a22f63be8b",
+      "section": "other",
+      "source_path": "Econometrics-Results/price_threshold_support.csv",
+      "sha256": "a22f63be8b19b3f292c3eb2fbfade569a1194b5715507051245eed71cec6ce54",
+      "rows": 4,
+      "columns": 8,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.propensity_overlap_interpretation_rankpct.74e002225b",
+      "section": "other",
+      "source_path": "Econometrics-Results/propensity_overlap_interpretation_rankpct.csv",
+      "sha256": "74e002225b3c117cdef1643ca7409f523a39af16ee058cde80e08455506788df",
+      "rows": 6,
+      "columns": 2,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.propensity_overlap_quantiles_rankpct.00979c6482",
+      "section": "other",
+      "source_path": "Econometrics-Results/propensity_overlap_quantiles_rankpct.csv",
+      "sha256": "00979c6482e19f12126c3b957a876780a95dd88499f99d5d2f54bd031b805652",
+      "rows": 16,
+      "columns": 14,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.propensity_overlap_summary_rankpct.0c445be02a",
+      "section": "other",
+      "source_path": "Econometrics-Results/propensity_overlap_summary_rankpct.csv",
+      "sha256": "0c445be02a3b1cc6350ad9f09860369897e71ab18155b722291139bc35c58e46",
+      "rows": 8,
+      "columns": 22,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.rank_summary_by_fba.7716913430",
+      "section": "other",
+      "source_path": "Econometrics-Results/rank_summary_by_fba.csv",
+      "sha256": "77169134304f7ec7f0f7ae1122dfa7ec383e9b62e4ca066e3f0d759f033e1da2",
+      "rows": 4,
+      "columns": 11,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.sample_sensitivity_rankpct.175fcb21cb",
+      "section": "other",
+      "source_path": "Econometrics-Results/sample_sensitivity_rankpct.csv",
+      "sha256": "175fcb21cb15d4cd18763bfc22bcbd18823e9c66293ce4a22dbabc868a7f385a",
+      "rows": 4,
+      "columns": 19,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.serial_dependence_claim_implications_rankpct.e1acb31f77",
+      "section": "other",
+      "source_path": "Econometrics-Results/serial_dependence_claim_implications_rankpct.csv",
+      "sha256": "e1acb31f778182dbbd69f68124589c916031102aa330b795d61e41f3f0fc0ae5",
+      "rows": 5,
+      "columns": 5,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.serial_dependence_method_note_rankpct.c653dd3433",
+      "section": "other",
+      "source_path": "Econometrics-Results/serial_dependence_method_note_rankpct.csv",
+      "sha256": "c653dd3433b7452e070953e8eefa5e5b2361283c3d6184ca03f1dfb5689118d8",
+      "rows": 3,
+      "columns": 3,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.shipping_support_by_fba.81474659fb",
+      "section": "other",
+      "source_path": "Econometrics-Results/shipping_support_by_fba.csv",
+      "sha256": "81474659fb95eb70f40453322f906c4dca1aa53143eed9e1dd710ceadefc0cc5",
+      "rows": 2,
+      "columns": 7,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.spine_table_manifest.efc571ad7e",
+      "section": "other",
+      "source_path": "Econometrics-Results/spine_table_manifest.csv",
+      "sha256": "efc571ad7ea9236d823a60b56b0f38136f693331c1c52cf9313bb1ad3db2a545",
+      "rows": 8,
+      "columns": 3,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.spline_functional_form_sensitivity_rankpct.43e1a1c77d",
+      "section": "other",
+      "source_path": "Econometrics-Results/spline_functional_form_sensitivity_rankpct.csv",
+      "sha256": "43e1a1c77db37b14045611e2230189041168f68f4564d33628ab6d316902e9a9",
+      "rows": 1,
+      "columns": 19,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.standardized_feature_association_rankpct.d059a77476",
+      "section": "other",
+      "source_path": "Econometrics-Results/standardized_feature_association_rankpct.csv",
+      "sha256": "d059a7747616a8207ce69c231132b52494b11efedcc03fea0cd66c7fa5c15d6d",
+      "rows": 8,
+      "columns": 16,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.static_residual_lag_diagnostic_rankpct.c6dc8ca4ff",
+      "section": "other",
+      "source_path": "Econometrics-Results/static_residual_lag_diagnostic_rankpct.csv",
+      "sha256": "c6dc8ca4ffefbbe36a16ef6aa1d41e019f529c58c3c6df95dd0688d632dfcd4a",
+      "rows": 1,
+      "columns": 12,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.static_wooldridge_style_residual_test_rankpct.ed783e26f5",
+      "section": "other",
+      "source_path": "Econometrics-Results/static_wooldridge_style_residual_test_rankpct.csv",
+      "sha256": "ed783e26f5199d818e38e8efb14a1b174ca3404fe360919aac8f35ab606c8b11",
+      "rows": 1,
+      "columns": 12,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.synthesis_manifest.17ca61b40a",
+      "section": "other",
+      "source_path": "Econometrics-Results/synthesis_manifest.csv",
+      "sha256": "17ca61b40a570aa328c18b5c1b37356cb271a1f610967ed0e4633e17e9f6f479",
+      "rows": 13,
+      "columns": 5,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.temporal_persistence_by_seller_rankpct.9cbd7fcc1b",
+      "section": "other",
+      "source_path": "Econometrics-Results/temporal_persistence_by_seller_rankpct.csv",
+      "sha256": "9cbd7fcc1b66d5dbe78c713bb14952a26b1624baccd570abe5363a8de5f162a5",
+      "rows": 13,
+      "columns": 11,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.temporal_stability_rankpct.992f700f72",
+      "section": "other",
+      "source_path": "Econometrics-Results/temporal_stability_rankpct.csv",
+      "sha256": "992f700f723bd00ae5c8cf40b9f62192fbfe6a124ce206c2ad38adadfdd7363e",
+      "rows": 2,
+      "columns": 19,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.thesis_oster_sensitivity_grid.74b3c7b256",
+      "section": "other",
+      "source_path": "Econometrics-Results/thesis_oster_sensitivity_grid.csv",
+      "sha256": "74b3c7b256c37597e1f1d7811aa7389414dcd02ff203a9db4591570f8e28dbd5",
+      "rows": 7,
+      "columns": 10,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.output_alignment_audit.43d9b82e9d",
+      "section": "other",
+      "source_path": "Econometrics-Results/thesis_synthesis_aligned/output_alignment_audit.csv",
+      "sha256": "43d9b82e9d9a1518086bddacfe69260825efa4bf938c64a3156084abfb7e11c7",
+      "rows": 23,
+      "columns": 4,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.thesis_consistency_warning_summary_aligned.956d15b8a5",
+      "section": "other",
+      "source_path": "Econometrics-Results/thesis_synthesis_aligned/thesis_consistency_warning_summary_aligned.csv",
+      "sha256": "956d15b8a5ccd02c81e4c223eeb3e810fade0a995bb68015ec10f262d01c051e",
+      "rows": 3,
+      "columns": 10,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.thesis_dropout_return_pattern_aligned.b3cb8fc5f3",
+      "section": "other",
+      "source_path": "Econometrics-Results/thesis_synthesis_aligned/thesis_dropout_return_pattern_aligned.csv",
+      "sha256": "b3cb8fc5f307a5dcdf93c3ae74ba862c37fcead3767691cfc6b501f669d744a0",
+      "rows": 4,
+      "columns": 4,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.thesis_functional_form_fragility_aligned.4f7618196e",
+      "section": "other",
+      "source_path": "Econometrics-Results/thesis_synthesis_aligned/thesis_functional_form_fragility_aligned.csv",
+      "sha256": "4f7618196e1c927c7f8c21ae8f651de84841ac97f53cd731f1ada5986abf23d7",
+      "rows": 3,
+      "columns": 8,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.thesis_logistics_value_adjusted_price_specification_aligned.09ed921496",
+      "section": "other",
+      "source_path": "Econometrics-Results/thesis_synthesis_aligned/thesis_logistics_value_adjusted_price_specification_aligned.csv",
+      "sha256": "09ed921496b76cadfea0e4484e215a4b1a4cf0ced89d95ca5a1827dd98ba762f",
+      "rows": 3,
+      "columns": 22,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.thesis_master_evidence_table_aligned.ffb4d6efeb",
+      "section": "other",
+      "source_path": "Econometrics-Results/thesis_synthesis_aligned/thesis_master_evidence_table_aligned.csv",
+      "sha256": "ffb4d6efeb3d563996238418b164e3dd7392caa2fc50c70c24be57eab3fb4036",
+      "rows": 11,
+      "columns": 8,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.thesis_oster_sensitivity_aligned.7f5bf37517",
+      "section": "other",
+      "source_path": "Econometrics-Results/thesis_synthesis_aligned/thesis_oster_sensitivity_aligned.csv",
+      "sha256": "7f5bf37517f2595950f7645d21a12f39816f6161b927adb32a323cac5b64d266",
+      "rows": 1,
+      "columns": 12,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.thesis_oster_sensitivity_grid_aligned.bb6b8f92c4",
+      "section": "other",
+      "source_path": "Econometrics-Results/thesis_synthesis_aligned/thesis_oster_sensitivity_grid_aligned.csv",
+      "sha256": "bb6b8f92c4f0d03743ec2578c66e7c433eaf2a86345de0a12e9092d1f1d93317",
+      "rows": 7,
+      "columns": 12,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.thesis_pre_disappearance_abnormal_smoothness_aligned.c10bbc244c",
+      "section": "other",
+      "source_path": "Econometrics-Results/thesis_synthesis_aligned/thesis_pre_disappearance_abnormal_smoothness_aligned.csv",
+      "sha256": "c10bbc244c2d8997d30869bf90be1a5f2ff423d17bde90d937446c062698de33",
+      "rows": 1,
+      "columns": 12,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.thesis_price_interaction_key_result_aligned.7c82fd42a2",
+      "section": "other",
+      "source_path": "Econometrics-Results/thesis_synthesis_aligned/thesis_price_interaction_key_result_aligned.csv",
+      "sha256": "7c82fd42a27b1fe44c335745b0661e1751d1ca2aa7b3df761b4bc8eb55722796",
+      "rows": 1,
+      "columns": 27,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.thesis_price_interaction_margins_aligned.b864b9a459",
+      "section": "other",
+      "source_path": "Econometrics-Results/thesis_synthesis_aligned/thesis_price_interaction_margins_aligned.csv",
+      "sha256": "b864b9a459380969ab1712ad146a609074d4a0bc56cda26dd5ca205680235fa3",
+      "rows": 3,
+      "columns": 19,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.thesis_temporal_stability_aligned.f1df1824ae",
+      "section": "other",
+      "source_path": "Econometrics-Results/thesis_synthesis_aligned/thesis_temporal_stability_aligned.csv",
+      "sha256": "f1df1824ae367edabdc65c1d4aef5167a6a08316300b653ba5588e0299be4ca0",
+      "rows": 2,
+      "columns": 21,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.thesis_top10_stockout_zero_se_audit_aligned.e8411d75d4",
+      "section": "other",
+      "source_path": "Econometrics-Results/thesis_synthesis_aligned/thesis_top10_stockout_zero_se_audit_aligned.csv",
+      "sha256": "e8411d75d42c1f7038cc8f4561446861ac265be6905dbfedceb3a13de0a2f856",
+      "rows": 2,
+      "columns": 25,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.top_feature_correlation_pairs_rankpct.169298e58c",
+      "section": "other",
+      "source_path": "Econometrics-Results/top_feature_correlation_pairs_rankpct.csv",
+      "sha256": "169298e58c4cbc12f14775a73aee614fff71c1760fe6b3645c61055fe2812a6e",
+      "rows": 20,
+      "columns": 5,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.top_observation_influence_rankpct.78c7ae5b21",
+      "section": "other",
+      "source_path": "Econometrics-Results/top_observation_influence_rankpct.csv",
+      "sha256": "78c7ae5b210cf159eb80b15ab7be799826ee67ee5d3caf5b4f5b6e5b98f21488",
+      "rows": 20,
+      "columns": 14,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.turnover_construction_audit.55ac269aeb",
+      "section": "other",
+      "source_path": "Econometrics-Results/turnover_construction_audit.csv",
+      "sha256": "55ac269aebf64a81cae6de6fabca8ed2d437d2cb48fc7df2f0739fa7194322aa",
+      "rows": 8,
+      "columns": 3,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.wild_cluster_bootstrap_rankpct.5530a7a69a",
+      "section": "other",
+      "source_path": "Econometrics-Results/wild_cluster_bootstrap_rankpct.csv",
+      "sha256": "5530a7a69acb5bf07bd67b047850c36e02709e8e12a4caad5173d21c86336748",
+      "rows": 1,
+      "columns": 31,
+      "chunks": 1,
+      "extension": ".csv"
+    },
+    {
+      "table_id": "other.wild_cluster_bootstrap_sensitivity_rankpct.c8e13e153f",
+      "section": "other",
+      "source_path": "Econometrics-Results/wild_cluster_bootstrap_sensitivity_rankpct.csv",
+      "sha256": "c8e13e153fc57e23e290002a7a4b19cea97b27406f3e0846b7fb87091fca3894",
+      "rows": 1,
+      "columns": 33,
+      "chunks": 1,
+      "extension": ".csv"
+    }
+  ],
+  "text_documents": [
+    {
+      "document_id": "other.econometric_model_specs.8d4b65a504",
+      "section": "other",
+      "source_path": "Econometrics-Results/econometric_model_specs.yaml",
+      "sha256": "8d4b65a5047da7f1dc79794d8b8690ba8bbf2358cb858960aeef8c312baec70e",
+      "characters": 11172,
+      "extension": ".yaml"
+    },
+    {
+      "document_id": "other.econometrics_manifest.506c5ed8e8",
+      "section": "other",
+      "source_path": "Econometrics-Results/econometrics_manifest.yaml",
+      "sha256": "506c5ed8e85b5e9ccd4670497dfcd7c66efe2a55405d233531aa41a8e7279ee3",
+      "characters": 4762,
+      "extension": ".yaml"
+    }
+  ],
+  "skipped_files": [
+    {
+      "source_path": "Econometrics-Results/thesis_figures_aligned/figure_01_static_fba_attenuation_aligned.png",
+      "section": "other",
+      "sha256": "ef8833119ae15b1149326d66852a115767847c8ef494487c2897db0ebdfbff02",
+      "bytes": 76203,
+      "reason": "figure_excluded"
+    },
+    {
+      "source_path": "Econometrics-Results/thesis_figures_aligned/figure_01_static_fba_attenuation_aligned.svg",
+      "section": "other",
+      "sha256": "81738fe71425afab729b81fce47b4539178616e299873d1acdec2bd40e5403ae",
+      "bytes": 40281,
+      "reason": "figure_excluded"
+    },
+    {
+      "source_path": "Econometrics-Results/thesis_figures_aligned/figure_02_dynamic_premium_ranktier_aligned.png",
+      "section": "other",
+      "sha256": "f7aab26bb3206cb2c34a67847d86cd2fd551b20d53f8e63c13a3f8f22e98b42f",
+      "bytes": 90034,
+      "reason": "figure_excluded"
+    },
+    {
+      "source_path": "Econometrics-Results/thesis_figures_aligned/figure_02_dynamic_premium_ranktier_aligned.svg",
+      "section": "other",
+      "sha256": "21c087e897ad2b36b03f867ac723ecf0560f509f1a5ea849734927c3f24623e1",
+      "bytes": 45483,
+      "reason": "figure_excluded"
+    },
+    {
+      "source_path": "Econometrics-Results/thesis_figures_aligned/figure_03_topk_threshold_family_aligned.png",
+      "section": "other",
+      "sha256": "17ab1268cd2cb61c81cb485bbb67698c0847767eedae774973783a05c2cbfe2d",
+      "bytes": 89322,
+      "reason": "figure_excluded"
+    },
+    {
+      "source_path": "Econometrics-Results/thesis_figures_aligned/figure_03_topk_threshold_family_aligned.svg",
+      "section": "other",
+      "sha256": "7559b5c1176c6331921cfc05ffd243e18e12e22c44952dc9dbaa2e8145cdd5ba",
+      "bytes": 32144,
+      "reason": "figure_excluded"
+    },
+    {
+      "source_path": "Econometrics-Results/thesis_figures_aligned/figure_04_distance_banded_turnover_aligned.png",
+      "section": "other",
+      "sha256": "da7bb2ff67e3cf05493c224c14128d30537df1034dc2809ce888680156f012ee",
+      "bytes": 79936,
+      "reason": "figure_excluded"
+    },
+    {
+      "source_path": "Econometrics-Results/thesis_figures_aligned/figure_04_distance_banded_turnover_aligned.svg",
+      "section": "other",
+      "sha256": "6c67f4dbcd30e7c6154bbe77e9dd782bcf738f14a7d6e1e8804dfbfcf1b22f4f",
+      "bytes": 33696,
+      "reason": "figure_excluded"
+    },
+    {
+      "source_path": "Econometrics-Results/thesis_figures_aligned/figure_05_overlap_smd_summary_aligned.png",
+      "section": "other",
+      "sha256": "5bfc545a0100209aa4bc24b7f32d49bd726a2319342f147042fb3c9859092b5c",
+      "bytes": 110833,
+      "reason": "figure_excluded"
+    },
+    {
+      "source_path": "Econometrics-Results/thesis_figures_aligned/figure_05_overlap_smd_summary_aligned.svg",
+      "section": "other",
+      "sha256": "fc2368fd794e6abb092818c24dc6b7c55a9f769e9cfea47ed1ccad74cbb239d9",
+      "bytes": 30747,
+      "reason": "figure_excluded"
+    },
+    {
+      "source_path": "Econometrics-Results/thesis_figures_aligned/figure_06_price_interaction_margins_aligned.png",
+      "section": "other",
+      "sha256": "46cef67604188d33c09d32a6da250ab5f544b5c85f04ff28e2a9bad079e12c51",
+      "bytes": 108519,
+      "reason": "figure_excluded"
+    },
+    {
+      "source_path": "Econometrics-Results/thesis_figures_aligned/figure_06_price_interaction_margins_aligned.svg",
+      "section": "other",
+      "sha256": "69cff0edf8bf6254f489954cc9d19446d9c6e58519ee83cec15c838d7a514d98",
+      "bytes": 34743,
+      "reason": "figure_excluded"
+    }
+  ],
+  "duplicate_files": [
+    {
+      "source_path": "Econometrics-Results/dynamic_directional_decomposition_decision_reference_rankpct.csv",
+      "section": "other",
+      "sha256": "954b459dfe3ee2c4ac96d23b76871ff313822606a004748f20ed5867f334c356",
+      "duplicate_of": "other.dynamic_directional_decomposition_decision_rankpct.954b459dfe"
+    },
+    {
+      "source_path": "Econometrics-Results/dynamic_dropouts_below_decomposition_reference_rankpct.csv",
+      "section": "other",
+      "sha256": "eca8788e1a2eea094c1f6ff6cb3fe8404187650bafedf5299a45987b733abd80",
+      "duplicate_of": "other.dynamic_above_below_decomposition_rankpct.eca8788e1a"
+    },
+    {
+      "source_path": "Econometrics-Results/dynamic_power_audit_rankpct.csv",
+      "section": "other",
+      "sha256": "2eedcac323ab80328942f22947f4ad2aa4239a26149c9a83a132885d63856b07",
+      "duplicate_of": "other.dynamic_mde_subgroup_audit_rankpct.2eedcac323"
+    },
+    {
+      "source_path": "Econometrics-Results/dynamic_support_mde_audit_rankpct.csv",
+      "section": "other",
+      "sha256": "2eedcac323ab80328942f22947f4ad2aa4239a26149c9a83a132885d63856b07",
+      "duplicate_of": "other.dynamic_mde_subgroup_audit_rankpct.2eedcac323"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+moderator,label,priority,fba_p25,fba_median,fba_p75,nonfba_p25,nonfba_median,nonfba_p75
+prezzo,product_price,primary,42.0,44.99,46.0,46.46,50.7,58.26
+g_cons_min_robust,delivery_days,primary,5.0,6.0,7.0,4.0,6.0,8.0
+log1p_num_valutazioni,review_count_log,secondary,2.8903717578961645,4.31748811353631,5.717027701406222,3.7376696182833684,5.488937726156687,7.51343639653689
+valutazioni_positive,positive_review_percent,secondary,92.0,97.0,100.0,76.0,87.0,95.0

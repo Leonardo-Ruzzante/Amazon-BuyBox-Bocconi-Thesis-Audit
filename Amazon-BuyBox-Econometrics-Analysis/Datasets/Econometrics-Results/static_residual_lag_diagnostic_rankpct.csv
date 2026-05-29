@@ -1,0 +1,2 @@
+model,diagnostic,status,pair_rule,n_pairs,clusters,rho_hat,se_clustered,t_statistic,pvalue_clustered,inference,interpretation
+static_headline_spec_4,lag_residual_regression,estimated,consecutive_market_pairs,4958,114,0.9700355582667269,0.009457291518140159,102.57012342340178,2.3342299484334053e-113,seller_clustered,Significant residual persistence would invalidate iid standard errors; it supports the thesis choice to use clustered/bootstrapped inference.

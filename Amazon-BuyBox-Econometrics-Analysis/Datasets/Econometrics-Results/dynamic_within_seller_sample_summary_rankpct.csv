@@ -1,0 +1,2 @@
+total_sellers,sellers_observed_at_least_twice,continuing_seller_transition_observations,sellers_in_all_markets,markets,interpretation
+119,114,4958,52,62,"The dynamic design uses continuing seller-transition observations. FBA does not switch within seller, but ranking exposure and rank outcomes vary within seller over time."

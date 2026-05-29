@@ -1,0 +1,3 @@
+overlap_status,designs,min_nonfba_rows,median_mean_abs_smd,max_key_covariate_abs_smd
+baseline_not_an_overlap_design,8,4111,0.7777654676977025,1.5525162229632423
+failed_overlap_diagnostic_not_robustness,24,576,0.47394879813058166,1.1203386818122558

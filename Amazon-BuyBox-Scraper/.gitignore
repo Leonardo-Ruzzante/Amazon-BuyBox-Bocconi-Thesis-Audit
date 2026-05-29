@@ -1,0 +1,29 @@
+target/
+.idea/
+*.iml
+
+.env
+.env.*
+!.env.example
+
+logs/
+*.log
+
+# Local browser drivers
+drivers/chromedriver
+drivers/chromedriver.exe
+chromedriver
+chromedriver.exe
+
+# Local secrets and credentials
+credentials/
+*.secret.json
+*credentials*.json
+
+# Generated scraping artifacts
+data/html/*.html
+data/screenshots/*.png
+data/output/*.csv
+!data/html/.gitkeep
+!data/screenshots/.gitkeep
+!data/output/.gitkeep

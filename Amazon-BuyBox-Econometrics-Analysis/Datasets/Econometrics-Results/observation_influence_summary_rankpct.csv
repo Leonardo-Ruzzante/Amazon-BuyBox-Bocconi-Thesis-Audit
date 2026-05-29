@@ -1,0 +1,2 @@
+nobs,parameters,leverage_threshold_2k_over_n,cooks_threshold_4_over_n,high_leverage_rows,high_cooks_rows,high_studentized_residual_rows,max_abs_dfbeta_fba,diagnostic_method
+5107,70,0.027413354219698455,0.0007832386919913843,53,185,45,0.11608377125619757,fast OLS influence formulas from hat-matrix diagonal

@@ -1,0 +1,7 @@
+step,operation,resulting_quantity
+Market grouping,Group the final third-party panel by retained seller-list market.,62 retained markets.
+Rank ordering,Sort sellers inside each market by recomputed rank position.,Seller order used for adjacent-in-rank comparisons.
+Adjacent pairing,Pair each seller with the immediately following seller in rank order.,5045 adjacent-in-rank seller pairs.
+Price-consistency check,Code a pair as consistent when the following seller's reconstructed total price is weakly greater than the current seller's reconstructed total price.,4995 price-consistent pairs and 50 inversions.
+Correlation check,"Compute Spearman's rank correlation between recomputed rank position and reconstructed total price within each market, then average across retained markets.",Mean within-market Spearman correlation of 0.991.
+Inversion audit,"Split inverted adjacent pairs by contact-courier exposure, then classify the determinate inversions by FBA status.","50 inversions involve a contact-courier row and cannot be confirmed; of the 0 determinate inversions, 0 compare two non-FBA sellers and 0 place an FBA seller above a cheaper non-FBA seller."

@@ -1,0 +1,2 @@
+abnormal_variables,strong_claim_threshold,fatal_threshold,pass_for_strong_claim,implementation_note
+1,at most one abnormal variable,four or more abnormal variables,True,vectorized seller-history deltas; same estimand as the nested implementation

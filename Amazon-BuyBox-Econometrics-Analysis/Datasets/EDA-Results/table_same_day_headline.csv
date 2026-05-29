@@ -1,0 +1,12 @@
+metric,value
+same_day_market_pairs,31.0
+pairs_with_any_rank_change_among_common_sellers,31.0
+share_pairs_with_any_rank_change_among_common_sellers,1.0
+mean_share_common_sellers_with_rank_change,0.5208041145834188
+median_share_common_sellers_with_rank_change,0.5
+mean_same_day_top_5_jaccard,0.9354838709677419
+median_same_day_top_5_jaccard,1.0
+mean_same_day_top_10_jaccard,0.9012707722385142
+median_same_day_top_10_jaccard,0.8181818181818182
+pairs_with_best_third_party_change,3.0
+share_pairs_with_best_third_party_change,0.0967741935483871

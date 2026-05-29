@@ -1,0 +1,9 @@
+feature,vif,vif_note
+fba_from_shipper,1.6470154514367628,VIF computed on market-demeaned standardized features from the inverse correlation matrix.
+log1p_num_valutazioni,1.4019557594457108,VIF computed on market-demeaned standardized features from the inverse correlation matrix.
+valutazioni_positive,13.369048040768192,VIF computed on market-demeaned standardized features from the inverse correlation matrix.
+stelle,12.24853963429895,VIF computed on market-demeaned standardized features from the inverse correlation matrix.
+prezzo,1.2394049020275126,VIF computed on market-demeaned standardized features from the inverse correlation matrix.
+prezzo_spedizione_repaired,1.2523199683598674,VIF computed on market-demeaned standardized features from the inverse correlation matrix.
+contact_courier_flag,1.032210659885662,VIF computed on market-demeaned standardized features from the inverse correlation matrix.
+g_cons_min_robust,1.159039291482996,VIF computed on market-demeaned standardized features from the inverse correlation matrix.

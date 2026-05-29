@@ -1,0 +1,2 @@
+transitions,transitions_with_any_dropout,mean_total_dropouts_per_transition,max_total_dropouts_in_transition,mean_exposed_rows_per_transition,max_exposed_rows_in_transition,mean_transition_rank_pct_improvement,display_note
+61,36,0.9836065573770492,5,28.508196721311474,84,0.0007476365266108956,Full transition-level table is exported; this compact diagnostic is displayed to keep the notebook readable.

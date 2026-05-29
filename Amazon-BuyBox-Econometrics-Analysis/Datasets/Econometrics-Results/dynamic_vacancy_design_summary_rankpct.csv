@@ -1,0 +1,2 @@
+observations,transitions,sellers,fba_observations,nonfba_observations,observations_with_dropout_above,share_with_dropout_above,max_dropouts_above,mean_dropouts_above,mean_rank_pct_improvement,median_rank_pct_improvement,design_note
+4958,61,114,962,3996,1739,0.35074626865671643,5,0.48225090762404194,0.0006714768048981093,0.0,Continuing seller-transition panel. Positive rank_pct_improvement means movement toward a better normalized rank.

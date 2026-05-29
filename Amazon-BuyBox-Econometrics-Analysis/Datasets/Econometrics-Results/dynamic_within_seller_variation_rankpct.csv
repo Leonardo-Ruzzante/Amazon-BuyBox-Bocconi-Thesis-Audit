@@ -1,0 +1,13 @@
+variable,sellers_observed_at_least_twice,sellers_with_within_seller_variation,sellers_without_within_seller_variation,share_with_within_seller_variation,interpretation_note
+rank_pct,114,111,3,0.9736842105263158,Variation is computed across all observed markets for sellers appearing at least twice.
+rank_pos,114,110,4,0.9649122807017544,Variation is computed across all observed markets for sellers appearing at least twice.
+prezzo,114,59,55,0.5175438596491229,Variation is computed across all observed markets for sellers appearing at least twice.
+prezzo_totale_reconstructed,114,67,47,0.5877192982456141,Variation is computed across all observed markets for sellers appearing at least twice.
+prezzo_spedizione_repaired,114,15,99,0.13157894736842105,Variation is computed across all observed markets for sellers appearing at least twice.
+g_cons_min_robust,114,107,7,0.9385964912280702,Variation is computed across all observed markets for sellers appearing at least twice.
+g_cons_max_robust,114,108,6,0.9473684210526315,Variation is computed across all observed markets for sellers appearing at least twice.
+delivery_window_robust,114,88,26,0.7719298245614035,Variation is computed across all observed markets for sellers appearing at least twice.
+log1p_num_valutazioni,114,81,33,0.7105263157894737,Variation is computed across all observed markets for sellers appearing at least twice.
+valutazioni_positive,114,61,53,0.5350877192982456,Variation is computed across all observed markets for sellers appearing at least twice.
+stelle,114,17,97,0.14912280701754385,Variation is computed across all observed markets for sellers appearing at least twice.
+fba_from_shipper,114,0,114,0.0,Variation is computed across all observed markets for sellers appearing at least twice.

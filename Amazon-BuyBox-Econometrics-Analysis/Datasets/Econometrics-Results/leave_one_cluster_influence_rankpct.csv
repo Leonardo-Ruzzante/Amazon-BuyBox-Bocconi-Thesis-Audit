@@ -1,0 +1,3 @@
+leave_one_dimension,iterations,baseline_coef,min_coef,p10_coef,median_coef,p90_coef,max_coef,same_sign_share,max_absolute_change,method
+market,62,-0.05103815170625814,-0.05141749862527445,-0.05134022245998775,-0.05113377847105652,-0.05063164552205146,-0.050386993146186776,1.0,0.0006511585600713632,exact deleted-cluster OLS using within-market transformation recomputed after deletion
+seller,119,-0.05103815170625814,-0.058102667578863954,-0.05257904258711969,-0.05103085857442047,-0.049510951891073685,-0.04232425135323692,1.0,0.00871390035302122,exact deleted-cluster OLS using within-market transformation recomputed after deletion

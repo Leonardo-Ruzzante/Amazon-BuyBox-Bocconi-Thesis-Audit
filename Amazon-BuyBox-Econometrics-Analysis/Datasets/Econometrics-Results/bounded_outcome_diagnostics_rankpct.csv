@@ -1,0 +1,2 @@
+outcome,actual_min,actual_max,endpoint_zero_rows,endpoint_one_rows,fitted_min,fitted_max,fitted_outside_unit_interval_rows,fitted_outside_unit_interval_share,interpretation
+rank_pct,0.0,1.0,62,62,-0.07002477157860432,1.5688074915912675,373,0.0730370080281966,Diagnostic for bounded-outcome concerns; OLS remains the main linear rank-percent estimator.

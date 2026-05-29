@@ -1,0 +1,5 @@
+return_category,dropout_observations,share
+persistent_absence,29,0.48333333333333334
+reappeared_later,24,0.4
+reappeared_within_two_snapshots,6,0.1
+right_censored,1,0.016666666666666666

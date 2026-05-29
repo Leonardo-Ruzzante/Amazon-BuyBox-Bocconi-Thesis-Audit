@@ -1,0 +1,3 @@
+policy_case,shipping_price_treatment,interpretation
+audited_baseline,keep observed stored value and flag shipping uncertainty,the raw text does not reveal a numeric shipping amount
+later_sensitivity_case,set shipping price to 0 for contact-courier rows,practical interpretation when no extra customer-paid numeric amount is shown

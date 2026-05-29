@@ -1,0 +1,13 @@
+metric,expected,actual,matches_audit
+final_rows,5107,5107,True
+n_markets,62,62,True
+fba_rows,996,996,True
+non_fba_rows,4111,4111,True
+buy_box_third_party_support,0,0,True
+review_problem_rows,92,92,True
+review_problem_sellers,3,3,True
+contact_courier_rows,50,50,True
+contact_courier_sellers,1,1,True
+mixed_fba_sellers_raw_new,2,2,True
+mixed_fba_sellers_final,0,0,True
+delivery_failure_markets,5,5,True

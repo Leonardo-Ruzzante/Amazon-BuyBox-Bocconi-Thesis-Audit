@@ -1,0 +1,2 @@
+model,diagnostic,status,n_pairs,clusters,coefficient_on_lagged_difference,se_clustered,test_null,t_statistic_for_null,pvalue_clustered,inference,interpretation
+dynamic_total_turnover_preferred_available_fit,wooldridge_style_fd_residual_test,estimated,4680,107,-0.7780113298521606,0.08537148555915855,coef = -0.5,-3.2564893070709355,0.00151524160857555,seller_clustered,Rejection indicates residual serial correlation; the appropriate response is cluster/block/wild-cluster inference plus a cautious observational interpretation.

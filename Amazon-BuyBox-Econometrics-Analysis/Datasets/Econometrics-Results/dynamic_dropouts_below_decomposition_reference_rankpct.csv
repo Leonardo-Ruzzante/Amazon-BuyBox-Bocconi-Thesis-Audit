@@ -1,0 +1,4 @@
+term,estimate,se,t_stat,pvalue,ci_low,ci_high,nobs,absorbed_or_missing,model_role,condition_number,ill_conditioned_flag,n_regressors_after_absorption,exposure,interaction_term
+fba_x_dropouts_above,0.003606373573672765,0.0016776649977762197,2.149638681413208,0.035625723445111834,0.0002505439325514347,0.006962203214794096,4958,False,above_only_directional_decomposition,,False,,above,fba_x_dropouts_above
+fba_x_dropouts_below,0.0033849771158157233,0.0011229405794632873,3.0143866716737433,0.003769740657369569,0.0011387615204638789,0.005631192711167568,4958,False,below_only_directional_decomposition,,False,,below,fba_x_dropouts_below
+fba_x_dropouts_below,-54478449637038.07,3.3656135617913265e+21,-1.618678099456025e-08,0.9999999871385163,-6.732229531871295e+21,6.732229422914396e+21,4958,False,joint_above_below_directional_decomposition_below_term,7705376778669.632,True,12.0,below,fba_x_dropouts_below

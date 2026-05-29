@@ -1,0 +1,5 @@
+object,within_seller_variation,role_in_dynamic_design
+fba_from_shipper,none in the final sample,main FBA level is absorbed by seller fixed effects
+dropouts_above,varies across seller-transition observations,time-varying directional seller-disappearance exposure; used for decomposition rather than the primary premium estimand
+fba_from_shipper × dropouts_above,varies because dropouts_above varies within seller,retained as a directional decomposition check; the main dynamic claim is the broader FBA-by-turnover premium rather than local above-turnover filling
+rank_pct_improvement,varies across consecutive seller transitions,outcome measuring upward or downward rank movement
